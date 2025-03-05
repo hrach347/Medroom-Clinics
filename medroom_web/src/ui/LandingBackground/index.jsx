@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./style.module.css";
-import header1 from "../../Assets/Images/header1.png";
-import homePresent from "../../Assets/Images/homePresent.png";
+import background from "../../Assets/Images/header1.png";
 
 const LandingBackground = () => {
   return (
-    <div className={styles.font}>
-      <img className={styles.fontBackground} src={header1} alt="" />
+    <div
+      className={styles.container}
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <div className={styles.fontClient}>
         <div>
           <div className={styles.fontClientLine1}></div>
@@ -18,7 +19,6 @@ const LandingBackground = () => {
           </p>
         </div>
       </div>
-      <img className={styles.homePresent} src={homePresent} alt="" />
     </div>
   );
 };

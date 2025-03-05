@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
+import { Link } from "react-router";
 import { motion, useInView } from "framer-motion";
+
 import { buttonVariants, containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 
-const CategoryCard = ({ title, description, subtitle, image }) => {
+const CategoryCard = ({ title, description, subtitle, image, to }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.1 });
   return (
@@ -23,13 +25,15 @@ const CategoryCard = ({ title, description, subtitle, image }) => {
             variants={textVariants}
           ></motion.div>
           <motion.span variants={textVariants}>{subtitle}</motion.span>
-          <motion.button
-            variants={buttonVariants}
-            whileHover="whileHover"
-            whileTap="whileTap"
-          >
-            READ MORE
-          </motion.button>
+          <Link to={to}>
+            <motion.button
+              variants={buttonVariants}
+              whileHover="whileHover"
+              whileTap="whileTap"
+            >
+              READ MORE
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
       <div className={styles.aboutRight}>
