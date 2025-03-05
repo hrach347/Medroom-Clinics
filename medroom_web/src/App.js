@@ -6,7 +6,8 @@ import About from "./pages/About";
 import Header from "./ui/Header";
 import Staff from "./pages/Staff";
 
-import "./App.css"
+import "./App.css";
+import Footer from "./ui/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Staff" element={<Staff />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
