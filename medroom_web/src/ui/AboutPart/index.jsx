@@ -1,7 +1,8 @@
-import styles from "./style.module.css";
+import CategoryCard from "../../components/CategoryCard/CategoryCard";
+
 import font2 from "../../Assets/Images/font2.png";
 import clinicServices from "../../Assets/Images/clinicServices.png";
-import CategoryCard from "../../components/CategoryCard/CategoryCard";
+import styles from "./style.module.css";
 
 const AboutPart = () => {
   const data = {
