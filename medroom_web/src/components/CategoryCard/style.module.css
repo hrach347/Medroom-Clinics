@@ -1,18 +1,17 @@
 .welcomeAbout {
   width: 86%;
   height: 70%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: white;
+  background: white;
   z-index: 1;
   display: flex;
 }
 
 .welcomeAbout > div {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 100%;
 }
 
 .aboutLeft {
@@ -46,10 +45,10 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.aboutLeftInformation .aboutLeftLine {
+.aboutLeftLine {
   width: 70px;
   height: 5px;
-  background-color: #00394d;
+  background: #00394d;
 }
 .aboutLeftInformation span {
   color: #00394d;
@@ -167,7 +166,7 @@
   .aboutLeftInformation p:nth-child(2) {
     font-size: 23px;
     line-height: 40px;
-    letter-spacing: 2px ;
+    letter-spacing: 2px;
   }
 
   .aboutLeftInformation span {

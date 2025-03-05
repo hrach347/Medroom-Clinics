@@ -1,6 +1,6 @@
 import styles from "./style.module.css";
-import AboutPart from "../../ui/AboutPart/AboutPart";
-import LandingBackground from "../../ui/LandingBackground/LandingBackground";
+import AboutPart from "../../ui/AboutPart/";
+import LandingBackground from "../../ui/LandingBackground/";
 import CardsContainer from "../../ui/CardsContainer";
 
 function Home() {
