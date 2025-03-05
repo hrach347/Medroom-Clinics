@@ -1,0 +1,75 @@
+.font {
+  height: 100%;
+  height: 100vh;
+  position: relative;
+}
+.fontBackground {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  
+}
+.fontClient {
+  position: absolute;
+  width: 34%;
+  height: 33%;
+  z-index: 1;
+  top: 61%;
+  left: 5%;
+  border: solid white 1px;
+  background-color: rgba(18, 18, 18, 0.252);
+  backdrop-filter: blur(4px);
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontClient > div {
+  width: 95%;
+  height: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.fontClient > div > p {
+  color: #ffffff;
+}
+
+.fontClient > div > p:nth-child(1) {
+  color: white;
+}
+
+.fontClient > div > p:nth-child(1) {
+  font-size: 25px;
+}
+
+.fontClientLine1 {
+  width: 10%;
+  height: 2%;
+  background-color: #6ec9c3;
+}
+.fontClientLine2 {
+  width: 90%;
+  height: 0.3%;
+  background-color: rgb(232, 232, 232);
+}
+
+.homePresent {
+  width: 30%;
+  height: 70%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+}
+
+@media screen and (max-width: 1200px) {
+  .font {
+    height: 90vh;
+  }
+}

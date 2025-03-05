@@ -1,0 +1,185 @@
+.welcomeAbout {
+  width: 86%;
+  height: 70%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+}
+
+.welcomeAbout > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.aboutLeft {
+  width: 60%;
+}
+
+.aboutLeftInformation {
+  width: 88%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: start;
+}
+
+.aboutLeftInformation > p:nth-child(1) {
+  color: #6ee8e1;
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px !important;
+}
+.aboutLeftInformation > p:nth-child(2) {
+  color: #00394d;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.aboutLeftInformation .aboutLeftLine {
+  width: 70px;
+  height: 5px;
+  background-color: #00394d;
+}
+.aboutLeftInformation span {
+  color: #00394d;
+  font-size: 17px;
+  line-height: 19px;
+}
+
+.aboutLeftInformation > button {
+  width: 133px;
+  padding: 10px;
+  border: solid #00394d 2px;
+  background: transparent;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #00394d;
+}
+
+.aboutRight {
+  width: 40%;
+}
+.aboutRight > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutLeftInformation p:nth-child(1) {
+    font-size: 20px;
+  }
+  .aboutLeftInformation p:nth-child(2) {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .aboutLeftInformation span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .welcomeAbout {
+    height: 65%;
+  }
+
+  .aboutLeftInformation p:nth-child(1) {
+    font-size: 20px;
+  }
+  .aboutLeftInformation p:nth-child(2) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .aboutLeftInformation span {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .aboutLeftInformation > button {
+    width: 120px;
+    height: 45px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcomeAbout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+  }
+  .welcomeAbout > div {
+    width: 90%;
+  }
+
+  .aboutLeftInformation {
+    width: 100%;
+    height: 85%;
+  }
+  .aboutLeftInformation p:nth-child(1) {
+    font-size: 19px;
+  }
+  .aboutLeftInformation p:nth-child(2) {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .aboutLeftInformation span {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .aboutRight > img {
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcomeAbout {
+    width: 100%;
+    height: 100%;
+  }
+
+  .aboutLeft {
+    width: 100%;
+  }
+  .aboutLeftInformation {
+    height: 80%;
+  }
+
+  .aboutLeftInformation p:nth-child(1) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .aboutLeftInformation p:nth-child(2) {
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 2px ;
+  }
+
+  .aboutLeftInformation span {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .aboutRight {
+    width: 100% !important;
+    height: 45% !important;
+  }
+  .aboutRight > img {
+    height: 100%;
+  }
+}
