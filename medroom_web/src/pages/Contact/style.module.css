@@ -1,0 +1,88 @@
+.container {
+  padding-top: 10vh;
+  height: 100vh;
+  background-image: url('https://plus.unsplash.com/premium_photo-1682130157004-057c137d96d5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xpbmljfGVufDB8fDB8fHww');
+  background-size: cover;
+}
+.start {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start > h1 {
+  color: white;
+  font-size: 70px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+}
+.contact{
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.contact>iframe{
+    width: 40%;
+    height: 100%;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(40, 78, 122, 0.5);
+}
+
+.contact>form{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 25px;
+    padding: 70px;
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+    border: solid 2px white;
+}
+.contact>form:hover{
+    backdrop-filter: blur(50px);
+}
+.contact input{
+    width: 90%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    color: #00394d;
+    border-bottom: solid 3px transparent;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+}
+.contact .message{
+    padding: 35px 20px;
+}
+
+.contact input:focus{
+    border-color: #00394d;
+    background: #ffffffe8;
+    box-shadow: none;
+}
+.contact input:user-valid{
+    border-color: #00394d;
+    background: #fff;
+}
+.contact input:user-invalid{
+    border-color: brown;
+}
+.contact button{
+    width: 25%;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    background: #00384dd1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contact button:hover{
+    background: #00384d;
+}
