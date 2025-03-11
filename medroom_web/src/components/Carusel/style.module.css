@@ -9,6 +9,10 @@
   padding-bottom: 2%;
 }
 
+.blogs button {
+  border: none;
+  border-radius: 30px;
+}
 @media screen and (max-width: 1400px) {
   .blogs {
     width: 90%;
