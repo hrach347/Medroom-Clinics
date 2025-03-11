@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { buttonVariants, containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 
-const CategoryCard = ({ title, description, subtitle, image, to }) => {
+const CategoryCard = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.1 });
   return (
@@ -18,14 +18,18 @@ const CategoryCard = ({ title, description, subtitle, image, to }) => {
           animate={isInView ? "visible" : "hidden"}
           variants={containerVariants}
         >
-          <motion.p variants={textVariants}>{title}</motion.p>
-          <motion.p variants={textVariants}>{description}</motion.p>
+          <motion.p className={styles.title} variants={textVariants}>
+            {data.title}
+          </motion.p>
+          <motion.p className={styles.description} variants={textVariants}>
+            {data.description}
+          </motion.p>
           <motion.div
             className={styles.aboutLeftLine}
             variants={textVariants}
           ></motion.div>
-          <motion.span variants={textVariants}>{subtitle}</motion.span>
-          <Link to={to}>
+          <motion.span variants={textVariants}>{data.subtitle}</motion.span>
+          <Link to={data.to}>
             <motion.button
               variants={buttonVariants}
               whileHover="whileHover"
@@ -37,7 +41,7 @@ const CategoryCard = ({ title, description, subtitle, image, to }) => {
         </motion.div>
       </div>
       <div className={styles.aboutRight}>
-        <img src={image} alt="clinic services" />
+        <img src={data.image} alt="" />
       </div>
     </div>
   );

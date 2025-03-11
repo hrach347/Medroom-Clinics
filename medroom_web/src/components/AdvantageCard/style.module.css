@@ -9,7 +9,7 @@
   backdrop-filter: blur(7px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 25px;
 }
@@ -54,10 +54,10 @@
 }
 
 @media screen and (max-width: 360px) {
-  .container{
+  .container {
     min-height: 40%;
   }
-  .container>img{
+  .container > img {
     width: 40px;
     height: 40px;
   }

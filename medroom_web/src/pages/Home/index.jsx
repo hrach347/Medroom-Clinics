@@ -4,6 +4,8 @@ import CardsContainer from "../../ui/CardsContainer";
 
 import clinicServices from "../../Assets/Images/clinicServices.png";
 import styles from "./style.module.css";
+import Blogs from "../../ui/Blogs";
+import font from "../../Assets/Images/font2.png";
 
 function Home() {
   const data = {
@@ -17,9 +19,10 @@ function Home() {
   return (
     <div className={styles.container}>
       <LandingBackground />
-      <AboutPart {...data} />
+      <AboutPart data={data} image={font} />
       <CardsContainer />
-      <AboutPart {...data} />
+
+      <Blogs />
     </div>
   );
 }
