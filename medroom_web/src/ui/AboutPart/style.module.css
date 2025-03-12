@@ -8,4 +8,19 @@
   background-position: end;
   background-repeat: no-repeat;
   background-size: contain;
+  border: solid;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome {
+    background-image: none !important;
+    padding: 0;
+  }
 }

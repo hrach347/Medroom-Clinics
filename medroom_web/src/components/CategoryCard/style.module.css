@@ -1,16 +1,16 @@
 .welcomeAbout {
   width: 86%;
-  height: 70vh;
   background: white;
   z-index: 1;
   display: flex;
 }
 
-.welcomeAbout > div {
+.aboutLeft,
+.aboutRight {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 .aboutLeft {
   width: 60%;
@@ -19,11 +19,11 @@
 
 .aboutLeftInformation {
   width: 88%;
-  height: 70%;
   display: flex;
   flex-direction: column;
+  align-items: start;
   padding: 20px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .title {
@@ -62,19 +62,31 @@
   font-size: 15px;
   letter-spacing: 1px;
   color: #00394d;
-  margin-top: 50px;
+  margin-top: 20px;
   cursor: pointer;
 }
 
 .aboutRight {
   width: 40%;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: 1;
 }
 
-.aboutRight > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@media screen and (max-width: 3000px) and (min-width: 1400px) {
+  .title {
+    font-size: 23px;
+  }
+
+  .description {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .aboutRight {
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -83,31 +95,44 @@
   }
   .description {
     font-size: 25px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .aboutLeftInformation span {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
+  }
+  .aboutLeftInformation button {
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+  }
+  .aboutRight {
+    height: 63vh;
   }
 }
 
 @media screen and (max-width: 1025px) {
+  .aboutLeftInformation {
+    gap: 10px;
+    padding: 10px;
+  }
   .title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .description {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 30px;
   }
 
   .aboutLeftInformation span {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 16px;
   }
-  .aboutLeftInformation > button {
-    width: 120px;
-    height: 45px;
+  .aboutLeftInformation button {
     font-size: 13px;
+    padding: 10px;
+  }
+  .aboutRight {
+    height: 30vh;
   }
 }
 
@@ -115,7 +140,6 @@
   .welcomeAbout {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 40px;
   }
   .welcomeAbout > div {
@@ -131,23 +155,22 @@
 
   .aboutLeftInformation span {
     font-size: 13px;
-    line-height: 14px;
+    line-height: 15px;
   }
-  .aboutRight > img {
-    width: 50%;
+  .aboutRight {
+    width: 100% !important;
   }
 }
 
 @media screen and (max-width: 480px) {
   .welcomeAbout {
     width: 100%;
+    gap: 50px;
+    padding-bottom: 0;
   }
 
   .aboutLeft {
     width: 100%;
-  }
-  .aboutLeftInformation {
-    height: 80%;
   }
 
   .title {
@@ -155,18 +178,18 @@
     line-height: 20px;
   }
   .description {
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 15px;
+    line-height: 30px;
     letter-spacing: 2px;
+  }
+  .aboutLeftInformation {
+    width: 100%;
+    padding: 10px 25px 10px 25px;
+    gap: 20px;
   }
 
   .aboutLeftInformation span {
-    font-size: 15px;
-    line-height: 22px;
-  }
-
-  .aboutRight {
-    width: 100%;
-    height: 45%;
+    font-size: 13px;
+    line-height: 18px;
   }
 }

@@ -40,9 +40,10 @@ const CategoryCard = ({ data }) => {
           </Link>
         </motion.div>
       </div>
-      <div className={styles.aboutRight}>
-        <img src={data.image} alt="" />
-      </div>
+      <div
+        className={styles.aboutRight}
+        style={{ backgroundImage: `url(${data.image})` }}
+      ></div>
     </div>
   );
 };
