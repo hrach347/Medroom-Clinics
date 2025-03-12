@@ -1,6 +1,7 @@
 .container {
-  width: 80%;
-  height: 100%;
+  width: 80% !important;
+  height: 100% !important;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -10,23 +11,31 @@
   margin: auto;
 }
 
-.image {
-  width: 100%;
-  transition: transform 0.7s ease-in-out;
-  overflow: hidden;
+.servicesButton {
+  width: 35%;
+  padding: 2%;
+  border: solid #00394d 2px;
+  background: transparent;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #00394d;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
-.image > img {
+.image {
   width: 100%;
-  transition: transform 0.8s ease-in-out;
+  height: 65%;
+  max-height: 80%;
+  transition: transform 0.7s ease-in-out;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .container:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.container:hover .image > img {
-  transform: rotate(5deg) scale(1.1);
 }
 
 .line {
@@ -35,6 +44,7 @@
   background-color: #00394d;
 }
 
+.servicesButton,
 .title,
 .description,
 .line {
@@ -43,41 +53,66 @@
 }
 
 .description {
-  font-size: 19px;
+  font-size: 18px;
   color: #00394d;
 }
 
 .title {
   font-size: 13px;
-  line-height: 25px;
   color: #00394d;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1700px) {
   .description {
-    font-size: 26px;
+    font-size: 30px;
   }
-  .title {
-    font-size: 17px;
+
+  .servicesButton {
+    font-size: 22px;
   }
 
   .line {
-    width: 60px;
+    width: 70px;
+    height: 3px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .container {
+    width: 90% !important;
+  }
+  .description {
+    font-size: 20px;
+  }
+
+  .line {
+    width: 40px;
+    height: 3px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .description {
+    font-size: 14px;
+  }
+
+  .servicesButton {
+    font-size: 12px;
+  }
+
+  .line {
+    width: 40px;
     height: 3px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
-    height: 70%;
-  }
-
   .description {
     font-size: 14px;
   }
-  .title {
-    font-size: 10px;
-    line-height: 12px;
+
+  .servicesButton {
+    font-size: 12px;
   }
 
   .line {
@@ -88,12 +123,7 @@
 
 @media screen and (max-width: 768px) {
   .description {
-    font-size: 18px;
-  }
-
-  .title {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
   }
 
   .line {
@@ -112,9 +142,6 @@
   }
 
   .description {
-    font-size: 17px;
-  }
-  .title {
-    font-size: 11px;
+    font-size: 22px;
   }
 }

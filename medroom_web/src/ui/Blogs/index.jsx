@@ -6,7 +6,7 @@ import BlogCarousel from "../../components/Carusel";
 const Blogs = () => {
   return (
     <div className={styles.container}>
-      <h1>BLOG</h1>
+      <h1>Մասնագիտական անկյուններ</h1>
       <div className={styles.liner}></div>
       <BlogCarousel blogs={data} />
     </div>

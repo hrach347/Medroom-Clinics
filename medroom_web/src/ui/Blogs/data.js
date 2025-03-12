@@ -1,44 +1,50 @@
-import clinics from "../../Assets/Images/alexsandrit.jpg";
+import alexandrit from "../../Assets/Images/alexsandrit.jpg";
+import transplant from "../../Assets/Images/poxpatvastum.jpg";
+import kosmetologia from "../../Assets/Images/kosmet.JPG";
+import mashk from "../../Assets/Images/mashk3.JPG";
+import mersum from "../../Assets/Images/Mersumimg.jpg";
+import turboSalary from "../../Assets/Images/turboSalary.jpg";
 
 export const data = [
   {
-    url: clinics,
+    url: transplant,
     title:
       "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
     description: "Մազերի փոխպատվաստում",
     id: 1,
   },
   {
-    url: clinics,
+    url: alexandrit,
     title:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
     description: "Ալեքսանդրիտային մազահեռացում",
     id: 2,
   },
   {
-    url: clinics,
+    url: kosmetologia,
     title:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     description: "Կոսմետոլոգիա",
     id: 3,
   },
   {
-    url: clinics,
+    url: turboSalary,
     title:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    description: "Սոլյարի",
+      "Հատուկ ջրային ռեժիմը խոնավեցնում է մաշկը, կանխում չորացումը և տալիս թարմության զգացում",
+    description: "Տուրբո Սոլյարին ",
     id: 4,
-  },{
-    url: clinics,
+  },
+  {
+    url: mersum,
     title:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    description: "What is Lorem Ipsum?",
+      "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+    description: "մերսում",
     id: 5,
-  },{
-    url: clinics,
-    title:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    description: "What is Lorem Ipsum?",
+  },
+  {
+    url: mashk,
+    title: "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
+    description: "մաշկի խնամք",
     id: 6,
   },
 ];

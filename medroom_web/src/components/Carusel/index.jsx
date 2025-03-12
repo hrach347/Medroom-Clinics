@@ -1,18 +1,19 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Blog from "../Blog";
 import styles from "./style.module.css";
 import { settings } from "./data";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const BlogCarousel = ({ blogs }) => {
   return (
-    <Slider className={styles.blogs} {...settings}>
-      {blogs.map((blog) => (
-        <Blog data={blog} />
-      ))}
-    </Slider>
+    <div className={styles.blogs}>
+      <Carousel {...settings}>
+        {blogs.map((blog) => (
+          <Blog data={blog}/>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
