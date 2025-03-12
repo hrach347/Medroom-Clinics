@@ -1,13 +1,13 @@
 import CategoryCard from "../../components/CategoryCard/CategoryCard";
-
-import font2 from "../../Assets/Images/font2.png";
 import styles from "./style.module.css";
 
-const AboutPart = (data) => {
+const AboutPart = ({ data, image }) => {
   return (
-    <div className={styles.welcome}>
-      <img src={font2} alt="font" />
-      <CategoryCard {...data} />
+    <div
+      className={styles.welcome}
+      style={{ backgroundImage: `url(${image})` }}
+    >
+      <CategoryCard data={data} />
     </div>
   );
 };

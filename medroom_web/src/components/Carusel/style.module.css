@@ -1,0 +1,38 @@
+.blogs {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.blogs > div {
+  width: 100% !important;
+  padding-bottom: 2%;
+}
+
+.blogs button {
+  border: none;
+  border-radius: 30px;
+}
+@media screen and (max-width: 1400px) {
+  .blogs {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blogs {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blogs {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

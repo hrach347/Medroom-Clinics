@@ -1,0 +1,120 @@
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  overflow: hidden;
+  padding-bottom: 10%;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  transition: transform 0.7s ease-in-out;
+  overflow: hidden;
+}
+
+.image > img {
+  width: 100%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container:hover .image > img {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.line {
+  width: 30px;
+  height: 2px;
+  background-color: #00394d;
+}
+
+.title,
+.description,
+.line {
+  margin-left: 20px;
+  margin-right: 3px;
+}
+
+.description {
+  font-size: 19px;
+  color: #00394d;
+}
+
+.title {
+  font-size: 13px;
+  line-height: 25px;
+  color: #00394d;
+}
+
+@media screen and (min-width: 1400px) {
+  .description {
+    font-size: 26px;
+  }
+  .title {
+    font-size: 17px;
+  }
+
+  .line {
+    width: 60px;
+    height: 3px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 70%;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .line {
+    width: 40px;
+    height: 3px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .line {
+    width: 60px;
+    height: 3px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 97%;
+  }
+
+  .line {
+    width: 30px;
+  }
+
+  .description {
+    font-size: 17px;
+  }
+  .title {
+    font-size: 11px;
+  }
+}
