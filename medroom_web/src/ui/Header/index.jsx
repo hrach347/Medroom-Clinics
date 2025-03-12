@@ -1,8 +1,8 @@
+import { useState } from "react";
 import { Link } from "react-router";
 
-import logo from "../../Assets/Images/logo.svg";
+import logo from "../../Assets/Images/logo.png";
 import styles from "./style.module.css";
-import { useState } from "react";
 
 function Header() {
   const [isOpened, setIsOpened] = useState(false);
@@ -13,15 +13,13 @@ function Header() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.logoContainer}>
         <img src={logo} alt="" />
-      </div>
       <div className={styles.menu}>
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Services">Services</Link>
-        <Link to="/Staff">Staff</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/">Գլխավոր</Link>
+        <Link to="/About">Մեր Մասին</Link>
+        <Link to="/Services">Ծառայություններ</Link>
+        <Link to="/Staff">Թիմ</Link>
+        <Link to="/Contact">Կապ</Link>
       </div>
       <div
         className={`${styles.menuIcon} ${isOpened ? styles.openedIcon : ""}`}

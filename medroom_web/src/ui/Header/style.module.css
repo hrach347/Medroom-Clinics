@@ -7,18 +7,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 2;
 }
-.logoContainer {
-  height: 60%;
+.container:hover {
+  backdrop-filter: blur(20px);
 }
-.logoContainer > img {
-  height: 100%;
+.container > img {
+  height: 85%;
 }
 .menu {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
 }
