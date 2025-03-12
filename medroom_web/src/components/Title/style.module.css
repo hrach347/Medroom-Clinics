@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #00394d;
+}
+.dot {
+  width: 120px;
+  height: 5px;
+  background: #6EE8E1;
+  margin: auto;
+  margin-top: 25px;
+}
