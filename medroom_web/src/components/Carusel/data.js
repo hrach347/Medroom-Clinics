@@ -1,49 +1,33 @@
-import React from "react";
 import styles from "./style.module.css";
-import leftArrow from "../../Assets/Images/arrow1.png";
-import rightArrow from "../../Assets/Images/arrow2.png";
 
-const PrevArrow = ({ onClick }) => {
-  return (
-    <button alt="Previous" onClick={onClick}>
-      <img src={rightArrow} alt="" />
-    </button>
-  );
-};
-
-const NextArrow = ({ onClick }) => {
-  return (
-    <button alt="Next" onClick={onClick}>
-      <img src={leftArrow} alt="" />
-    </button>
-  );
-};
 
 export const settings = {
-  dots: true,
+  draggable: false,
   infinite: true,
-  speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  prevArrow: <PrevArrow />,
-  nextArrow: <NextArrow />,
-
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        // slidesToScroll: 2,
-        initialSlide: 2,
-      },
+  autoPlay: true,
+  showDots: false,
+  arrows: false,
+  containerClass: styles.slider,
+  itemClass: styles.item,
+  autoPlaySpeed: 20,
+  customTransition: "all 2000ms linear",
+  transitionDuration: 2000,
+  responsive: {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 4,
     },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        // slidesToScroll: 1,
-        initialSlide: 1,
-      },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
     },
-  ],
+    tablet: {
+      breakpoint: { max: 1024, min: 650 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 600, min: 0 },
+      items: 1,
+    },
+  },
 };
