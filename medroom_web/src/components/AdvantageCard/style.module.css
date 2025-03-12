@@ -3,13 +3,13 @@
   max-width: 300px;
   height: 50%;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
-  box-shadow: 0px 0px 18px -5px #00000040;
-  backdrop-filter: blur(7px);
+  box-shadow: 0px 0px 2px 1px white;
+  backdrop-filter: blur(2px);
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   gap: 25px;
 }
@@ -23,9 +23,8 @@
 }
 
 .container > img {
-  width: 40px;
-  min-height: 40px;
-  background: #00394d;
+  width: 60px;
+  /* min-height: 40px; */
   border-radius: 10px;
 }
 

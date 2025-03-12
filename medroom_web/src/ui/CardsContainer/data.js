@@ -1,27 +1,33 @@
+import qualitySvg from "../../Assets/Images/quality.svg"
+import saleSvg from "../../Assets/Images/sale.svg"
+import peopleSvg from "../../Assets/Images/people.svg"
+import heartSvg from "../../Assets/Images/heart.svg"
+import timeSvg from "../../Assets/Images/time.svg"
+
 const data = [
   {
-    image: "",
-    text: "High quality",
+    image: qualitySvg,
+    text: "Բարձր որակ",
   },
   {
-    image: "",
-    text: "Professional team",
+    image: peopleSvg,
+    text: "Պրոֆեսիոնալ թիմ",
   },
   {
-    image: "",
-    text: "Individual approach",
+    image: heartSvg,
+    text: "Անհատական մոտեցում",
   },
   {
-    image: "",
-    text: "Lorem Ipsum",
+    image: saleSvg,
+    text: "Մատչելի գներ",
   },
   {
-    image: "",
-    text: "Lorem Ipsum",
+    image: qualitySvg,
+    text: "Փորձառու մասնագետներ",
   },
   {
-    image: "",
-    text: "Lorem Ipsum",
+    image: timeSvg,
+    text: "Հերթեր չկան",
   },
 ];
 
