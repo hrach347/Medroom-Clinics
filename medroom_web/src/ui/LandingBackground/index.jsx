@@ -11,11 +11,13 @@ const LandingBackground = () => {
       <div className={styles.fontClient}>
         <div>
           <div className={styles.fontClientLine1}></div>
-          <p>CLIENT CENTER</p>
+          <p>Medroom Clinics</p>
           <div className={styles.fontClientLine2}></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicingelit. Recusandae
-            Lorem
+            Specialized in: <br /> • Alexandrite Laser Hair Removal <br /> •
+            Advanced Skin Treatments <br />• Botox & Fillers <br /> •
+            Therapeutic Massage <br /> • Turbo Solarium <br /> • 043 603600{" "}
+            <br />• Sayat Nova 13, Yerevan, Armenia
           </p>
         </div>
       </div>

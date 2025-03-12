@@ -35,7 +35,7 @@ const CategoryCard = ({ data }) => {
               whileHover="whileHover"
               whileTap="whileTap"
             >
-              READ MORE
+              Իմանալ ավելին
             </motion.button>
           </Link>
         </motion.div>

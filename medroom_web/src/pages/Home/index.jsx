@@ -2,17 +2,17 @@ import AboutPart from "../../ui/AboutPart";
 import LandingBackground from "../../ui/LandingBackground";
 import CardsContainer from "../../ui/CardsContainer";
 
-import clinicServices from "../../Assets/Images/clinicServices.png";
+import clinicServices from "../../Assets/Images/MerMasin.PNG";
 import styles from "./style.module.css";
 import Blogs from "../../ui/Blogs";
 import font from "../../Assets/Images/font2.png";
 
 function Home() {
   const data = {
-    title: '"ABC" Medical Center',
-    description: 'We welcome you to the official website of "ABC" MC',
+    title: 'Լազեռային Մազահեռացում',
+    description: 'Անվտանգ և պրոֆեսիոնալ մոտեցում',
     subtitle:
-      "Many of the clinics specialists have received work training abroad Many of the clinics specialists have received work training abroad",
+      "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները՝ ապահովելով անվտանգ, արագ և արդյունավետ արդյունք:",
     image: clinicServices,
     to: "/",
   };
