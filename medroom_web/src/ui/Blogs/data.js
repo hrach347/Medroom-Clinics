@@ -5,7 +5,7 @@ import mashk from "../../Assets/Images/mashk3.JPG";
 import mersum from "../../Assets/Images/Mersumimg.jpg";
 import turboSalary from "../../Assets/Images/turboSalary.jpg";
 
-export const data = [
+const data = [
   {
     url: transplant,
     title:
@@ -48,3 +48,5 @@ export const data = [
     id: 6,
   },
 ];
+
+export default data
