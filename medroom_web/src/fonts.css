@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'RAVORS';
+    src: url('./fonts/ravors.otf') format('opentype'),
+         url('./fonts/ravors.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

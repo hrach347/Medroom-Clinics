@@ -1,27 +1,45 @@
 import React from "react";
 import styles from "./style.module.css";
-import background from "../../Assets/Images/header1.png";
+import { motion } from 'framer-motion';
+import { titleVariant, containerVariant, lineVariant, textVariant } from "./animate";
+import VideoBackground from "../../components/VideoBackground/videoBackground";
 
 const LandingBackground = () => {
   return (
-    <div
-      className={styles.container}
-      style={{ backgroundImage: `url(${background})` }}
-    >
-      <div className={styles.fontClient}>
-        <div>
-          <div className={styles.fontClientLine1}></div>
-          <p>Medroom Clinics</p>
-          <div className={styles.fontClientLine2}></div>
-          <p>
-            Specialized in: <br /> • Alexandrite Laser Hair Removal <br /> •
-            Advanced Skin Treatments <br />• Botox & Fillers <br /> •
-            Therapeutic Massage <br /> • Turbo Solarium <br /> • 043 603600{" "}
-            <br />• Sayat Nova 13, Yerevan, Armenia
-          </p>
-        </div>
-      </div>
-    </div>
+    <motion.div className={styles.container}>
+
+      <VideoBackground />
+
+      <motion.h2
+        className={styles.title}
+        variants={titleVariant}
+        initial='hidden'
+        animate='visible'
+      >
+        Medroom Clinics
+      </motion.h2>
+
+      <motion.div 
+        className={styles.hr} 
+        variants={lineVariant}
+        initial='hidden'
+        animate='visible'
+      />
+
+      <motion.ul
+        variants={containerVariant}
+        initial='hidden'
+        animate='visible'
+        className={styles.forHeaderTexts}
+      >
+        <motion.li variants={textVariant}>Alexandrite Laser Hair Removal</motion.li>
+        <motion.li variants={textVariant}>Advanced Skin Treatments</motion.li>
+        <motion.li variants={textVariant}>Botox & Fillers</motion.li>
+        <motion.li variants={textVariant}>Therapeutic Massage</motion.li>
+        <motion.li variants={textVariant}>Turbo Solarium</motion.li>
+      </motion.ul>
+
+    </motion.div>
   );
 };
 
