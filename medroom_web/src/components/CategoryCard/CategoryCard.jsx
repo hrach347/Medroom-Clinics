@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion";
 
 import { buttonVariants, containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
+import Button from "../Button/button";
 
 const CategoryCard = ({ data }) => {
   const ref = useRef(null);
@@ -30,13 +31,7 @@ const CategoryCard = ({ data }) => {
           ></motion.div>
           <motion.span variants={textVariants}>{data.subtitle}</motion.span>
           <Link to={data.to}>
-            <motion.button
-              variants={buttonVariants}
-              whileHover="whileHover"
-              whileTap="whileTap"
-            >
-              Իմանալ ավելին
-            </motion.button>
+            <Button content='Իմանալ ավելին'/>
           </Link>
         </motion.div>
       </div>
