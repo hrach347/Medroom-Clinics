@@ -1,0 +1,7 @@
+.container {
+    background-color: #6EE8E1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    padding: 50px 0 40px;
+}
