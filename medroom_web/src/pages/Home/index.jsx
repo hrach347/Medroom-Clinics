@@ -6,6 +6,8 @@ import clinicServices from "../../Assets/Images/MerMasin.PNG";
 import styles from "./style.module.css";
 import Blogs from "../../ui/Blogs";
 import font from "../../Assets/Images/font2.png";
+import InformationAboutClinic from "../../ui/InformationAboutClinic";
+import SmallDecorativePart from "../../ui/SmallDecorativePart";
 
 function Home() {
   const data = {
@@ -20,9 +22,10 @@ function Home() {
     <div className={styles.container}>
       <LandingBackground />
       <AboutPart data={data} image={font} />
+      <SmallDecorativePart />
       <CardsContainer />
-
       <Blogs />
+      <InformationAboutClinic />
     </div>
   );
 }
