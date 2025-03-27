@@ -8,6 +8,10 @@
   transition: 200ms;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
