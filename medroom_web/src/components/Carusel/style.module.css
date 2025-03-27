@@ -1,17 +1,9 @@
 .blogs {
-  width: 90%;
-}
-.blogs > div {
   width: 100%;
-}
-.blogs ul {
-  height: 100%;
-}
-
-.blogs li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  overflow: visible;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .slider {
@@ -19,7 +11,7 @@
   height: 70vh;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 480px) {
   .blogs {
     width: 100%;
   }

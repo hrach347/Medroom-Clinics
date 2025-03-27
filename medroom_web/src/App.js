@@ -5,9 +5,8 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Header from "./ui/Header";
 import Staff from "./pages/Staff";
-
-import "./App.css";
 import Footer from "./ui/Footer";
+import "./App.css";
 
 function App() {
   return (
