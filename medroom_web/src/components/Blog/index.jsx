@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
+import Button from "../Button/button";
 
 const Blog = ({ data }) => {
   return (
@@ -11,7 +12,7 @@ const Blog = ({ data }) => {
       <p className={styles.description}>{data.description}</p>
       <p className={styles.title}>{data.title}</p>
       <div className={styles.line}> </div>
-      <button className={styles.servicesButton}>Ավելին</button>
+      <Button content="Ավելին" to={data.to}/>
     </div>
   );
 };
