@@ -13,9 +13,11 @@ const Footer = () => {
     { icon: mail, text: "clinic mail", },
   ]
   const pages = [
-    { name: "Home", link: "/", },
-    { name: "About", link: "/About", },
-    { name: "Contact", link: "/Contact", },
+    { name: "Գլխավոր", link: "/", },
+    { name: "Մեր Մասին", link: "/About", },
+    { name: "Կապ", link: "/Contact", },
+    { name: "Թիմ", link: "/Staff", },
+    { name: "Ծառայություններ", link: "/Services", },
   ]
   return (
     <div className={styles.container}>

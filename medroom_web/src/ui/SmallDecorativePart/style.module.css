@@ -34,6 +34,7 @@
     position: absolute;
     left: 10%;
     top: 15%;
+    object-fit: cover;
 }
 
 .informationContainer {
@@ -64,7 +65,7 @@
 .moreButton {
     width: min-content;
     background-color: white;
-    padding: 15px 20px;
+    padding: 12px 40px;
     border: 2px solid #00394d;
     position: relative;
     cursor: pointer;
@@ -72,7 +73,6 @@
 
 .moreButton > span {
     color: #00394d;
-    font-size: 13px;
     position: relative;
 }
 

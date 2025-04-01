@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import doctorWithClient from "../../Assets/Images/doctorWithClientTwo.webp"
+import doctorWithClient from "../../Assets/Images/kosmet.JPG"
 import { Link } from "react-router"
 
 function SmallDecorativePart() {
@@ -10,9 +10,9 @@ function SmallDecorativePart() {
                 <div className={styles.decorativeBlockTwo}></div>
                 <img src={doctorWithClient} alt="clinic picture" width="400px" height="400px" className={styles.picture} />
                 <div className={styles.informationContainer}>
-                    <h3>JUST Cntact US!</h3>
+                    <h3>Կապնվեք մեզ հետ</h3>
                     <p>We are confident that we can provide you with the best solution for your medical practice. Contact us to learn more about our services and how we can assist you.</p>
-                    <Link className={styles.moreButton}><span>Contact</span></Link>
+                    <Link className={styles.moreButton}><span>Կապ</span></Link>
                 </div>
             </div>
         </div>

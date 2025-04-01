@@ -1,0 +1,35 @@
+.container{
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+}
+.container > p{
+    font-size: 25px;
+    color: #00394d;
+    text-align: center;
+    width: 75%;
+}
+.container > ul {
+    padding: 100px 150px;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: inset 0px 0px 0px #00394d;
+    border: solid 2px #00394d; 
+    flex-direction: column;
+    gap: 30px;
+    transition: 1s;
+}
+.container >ul:hover{
+    box-shadow: inset 0px 1000px 30px #00394d;
+    border-radius: 0;
+}
+.container>ul:hover>li{
+    color: white;
+}
+.container li{
+    color: #00394d;
+    font-size: 24px;
+}
