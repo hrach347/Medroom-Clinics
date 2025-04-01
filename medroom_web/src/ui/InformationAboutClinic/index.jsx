@@ -1,6 +1,9 @@
 import InfoAboutClinic from "../../components/InfoAboutClinicPart";
 import styles from "./style.module.css";
 
+
+
+
 function InformationAboutClinic() {
   const data = [
     { account: 10, text: "Partners" },
@@ -14,10 +17,11 @@ function InformationAboutClinic() {
     <div className={styles.container}>
       {data.map((element, index) => {
         return (
-          <InfoAboutClinic key={index}>
-            <h3>{element.account}</h3>
-            <h4>{element.text}</h4>
-          </InfoAboutClinic>
+          <InfoAboutClinic 
+            key={index} 
+            end={element.account}
+            text={element.text}
+          />
         );
       })}
     </div>

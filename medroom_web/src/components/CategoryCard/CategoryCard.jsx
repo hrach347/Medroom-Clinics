@@ -1,14 +1,20 @@
 import React, { useRef } from "react";
 import { Link } from "react-router";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 import { containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 import Button from "../Button/button";
 
 const CategoryCard = ({ data }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { triggerOnce: true, threshold: 0.1 });
+
+
+  const {ref, inView} = useInView({
+    triggerOnce: true,
+    threshold: 0.5
+  });
+
   return (
     <div className={styles.welcomeAbout}>
       <div className={styles.aboutLeft}>
@@ -16,7 +22,7 @@ const CategoryCard = ({ data }) => {
           ref={ref}
           className={styles.aboutLeftInformation}
           initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
+          animate={inView ? "visible" : "hidden"}
           variants={containerVariants}
         >
           <motion.p className={styles.title} variants={textVariants}>
