@@ -1,7 +1,9 @@
 .container {
     background-color: #6EE8E1;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    padding: 50px 0 40px;
+    padding: 50px;
+    margin-top: 10vh;
 }

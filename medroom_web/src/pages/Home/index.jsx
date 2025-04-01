@@ -24,7 +24,9 @@ function Home() {
       <AboutPart data={data} image={font} />
       <SmallDecorativePart />
       <CardsContainer />
+      <AboutPart data={data} image={font} />
       <Blogs />
+      <AboutPart data={data} image={font} />
       <InformationAboutClinic />
     </div>
   );
