@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Link } from "react-router";
 import { motion, useInView } from "framer-motion";
 
-import { buttonVariants, containerVariants, textVariants } from "./animate";
+import { containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 import Button from "../Button/button";
 
@@ -31,7 +31,7 @@ const CategoryCard = ({ data }) => {
           ></motion.div>
           <motion.span variants={textVariants}>{data.subtitle}</motion.span>
           <Link to={data.to}>
-            <Button content='Իմանալ ավելին'/>
+            <Button content='Իմանալ ավելին' to='/alexandrit'/>
           </Link>
         </motion.div>
       </div>

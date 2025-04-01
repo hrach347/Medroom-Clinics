@@ -56,14 +56,7 @@
 }
 
 .aboutLeftInformation button {
-  padding: 15px 25px 15px 25px;
-  border: solid #00394d 2px;
-  background: transparent;
-  font-size: 15px;
-  letter-spacing: 1px;
-  color: #00394d;
   margin-top: 20px;
-  cursor: pointer;
 }
 
 .aboutRight {
@@ -75,12 +68,7 @@
   z-index: 1;
 }
 
-/* .aboutRight > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  flex-grow: 1;
-} */
+
 
 @media screen and (max-width: 3000px) and (min-width: 1400px) {
   .title {
@@ -89,9 +77,6 @@
   .description {
     font-size: 30px;
     line-height: 40px;
-  }
-  .aboutRight {
-    height: 55vh;
   }
 }
 
