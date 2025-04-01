@@ -21,6 +21,7 @@
   color: #00394d;
   cursor: pointer;
   border-radius: 2px;
+  margin-top: auto;
 }
 
 .image {
@@ -42,6 +43,7 @@
   width: 30px;
   height: 2px;
   background-color: #00394d;
+  margin-top: auto;
 }
 
 .servicesButton,

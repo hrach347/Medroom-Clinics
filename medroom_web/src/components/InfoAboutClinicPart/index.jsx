@@ -1,9 +1,30 @@
 import styles from "./style.module.css";
+import CountUp from 'react-countup';
+import { useInView } from "react-intersection-observer";
 
-function InfoAboutClinic({ children }) {
+function InfoAboutClinic({ end, text, duration = 2 }) {
+
+  const {ref, inView} = useInView({
+    triggerOnce: true,
+    threshold: 1
+  })
+
   return (
-    <div className={styles.container}>
-      {children}
+    <div className={styles.container} ref={ref}>
+      <h3>
+        {
+          inView ? 
+          <CountUp 
+            start={0} 
+            end={end} 
+            duration={duration}
+            useEasing
+            separator=","
+            /> : 
+          0
+        }
+      </h3>
+      <h4>{text}</h4>
     </div>
   );
 }

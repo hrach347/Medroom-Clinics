@@ -5,5 +5,21 @@
     align-items: center;
     width: 100%;
     padding: 50px;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
+}
+
+.container > div h4 {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+        > div {
+            border-bottom: 1px solid  #60d6d0;
+            padding: 20px;
+        }
+    }
 }
