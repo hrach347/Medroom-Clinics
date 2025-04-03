@@ -1,7 +1,7 @@
   .custom-swiper {
     transition: all 150ms linear;
-    width: 98vw;
-    padding: 20px;
+    width: 99vw;
+    padding: 40px 20px;
   }
   
   .swiper-slide {
