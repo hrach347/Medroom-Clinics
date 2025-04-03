@@ -12,7 +12,7 @@ const data = [
       "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
     description: "Մազերի փոխպատվաստում",
     id: 1,
-    to: "/transplant",
+    to: "/Services/transplant",
   },
   {
     url: alexandrit,
@@ -20,7 +20,7 @@ const data = [
       "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
     description: "Ալեքսանդրիտային մազահեռացում",
     id: 2,
-    to: "/alexandrit",
+    to: "/Services/alexandrit",
   },
   {
     url: kosmetologia,
@@ -28,7 +28,7 @@ const data = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     description: "Կոսմետոլոգիա",
     id: 3,
-    to: "/kosmetologia",
+    to: "/Services/kosmetologia",
   },
   {
     url: turboSalary,
@@ -36,7 +36,7 @@ const data = [
       "Հատուկ ջրային ռեժիմը խոնավեցնում է մաշկը, կանխում չորացումը և տալիս թարմության զգացում",
     description: "Տուրբո Սոլյարին ",
     id: 4,
-    to: "/turboSalary",
+    to: "/Services/turboSalary",
   },
 
   {
@@ -45,14 +45,14 @@ const data = [
       "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
     description: "մերսում",
     id: 5,
-    to: "/mersum",
+    to: "/Services/mersum",
   },
   {
     url: mashk,
     title: "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
     description: "մաշկի խնամք",
     id: 6,
-    to: "/mashk",
+    to: "/Services/mashk",
   },
 ];
 

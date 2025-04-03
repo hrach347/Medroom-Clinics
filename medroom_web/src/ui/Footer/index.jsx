@@ -7,6 +7,7 @@ import { Link } from "react-router"
 
 const Footer = () => {
   const linkIcons = ["", "", "", ""]
+
   const clinicData = [
     { icon: location, text: "11 Sayat-Nova Ave, Yerevan 0001", },
     { icon: telephone, text: "telephone number", },
