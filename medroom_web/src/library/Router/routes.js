@@ -30,23 +30,7 @@ const routeList = [
   },
   {
     element: More,
-    path: "/alexandrit",
-  },
-  {
-    element: More,
-    path: "/kosmetologia",
-  },
-  {
-    element: More,
-    path: "/turboSalary",
-  },
-  {
-    element: More,
-    path: "/mersum",
-  },
-  {
-    element: More,
-    path: "/mashk",
+    path: "/Services/:slug",
   },
 ];
 

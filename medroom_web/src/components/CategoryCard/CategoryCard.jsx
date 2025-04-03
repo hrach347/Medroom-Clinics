@@ -1,15 +1,11 @@
-import React, { useRef } from "react";
-import { Link } from "react-router";
+import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
 import { containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 import Button from "../Button/button";
 
 const CategoryCard = ({ data }) => {
-
-
   const {ref, inView} = useInView({
     triggerOnce: true,
     threshold: 0.5
@@ -36,9 +32,7 @@ const CategoryCard = ({ data }) => {
             variants={textVariants}
           ></motion.div>
           <motion.span variants={textVariants}>{data.subtitle}</motion.span>
-          <Link to={data.to}>
-            <Button content='Իմանալ ավելին' to='/alexandrit'/>
-          </Link>
+            <Button content='Իմանալ ավելին' to={data.to}/>
         </motion.div>
       </div>
       <div

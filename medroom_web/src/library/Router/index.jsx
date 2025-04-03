@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router';
 const RouteWrapper = () => {
     const pendingRoute = routeList.map(({element: Element, path }) => (
          <Route
+         key={path}
          element={<Element/>}
          path={path}
         />
