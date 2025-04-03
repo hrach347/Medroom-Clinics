@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './style.module.css'
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 import { containerVariants, textVariants } from './animate';
 
 const LeftMore = ({ data }) => {
-    const ref = React.useRef(null);
-    const inView = useInView(ref, {
+
+    const {ref, inView} = useInView({
         triggerOnce: true,
         threshold: 0.5
-    });
+    })
 
     const pendingData = data.lists.map((list, index) => (
         <motion.li

@@ -1,17 +1,17 @@
 .btn {
-  padding: 15px 25px;
   border: solid #00394d 2px;
   position: relative;
-  background: white;
+  background: transparent;
   font-size: 15px;
   letter-spacing: 1px;
   color: #00394d;
-  margin-top: 50px;
   cursor: pointer;
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
   transition: 0.4s ease;
-  background: transparent;
+  z-index: 1;
 }
 
 .btn::after {
@@ -29,7 +29,6 @@
 
 .btn:hover::after {
   height: 100%;
-  
 }
 
 .btn:hover {
