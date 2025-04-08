@@ -9,10 +9,12 @@ const Blog = ({ data }) => {
         className={styles.image}
         style={{ backgroundImage: `url(${data.url})` }}
       ></div>
-      <p className={styles.description}>{data.description}</p>
-      <p className={styles.title}>{data.title}</p>
-      <div className={styles.line}> </div>
-      <Button content="Ավելին" to={data.to}/>
+      <div className={styles.contentBox}>
+        <p className={styles.description}>{data.description}</p>
+        <p className={styles.title}>{data.title}</p>
+        <div className={styles.line}> </div>
+        <Button content="Ավելին" to={data.to}/>
+      </div>
     </div>
   );
 };
