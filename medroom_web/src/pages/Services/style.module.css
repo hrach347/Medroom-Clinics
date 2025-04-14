@@ -1,23 +1,37 @@
 .container {
     width: 100%;   
-    border: solid;
-    padding-top: 20vh;
+    padding-top: 12vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .serviceCards {
     width: 90%;
     margin: 5vh 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3,1fr);
     padding: 10px 0px 10px 0px;
     gap: 20px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 7000px) {
     .serviceCards {
-         width: 95%;
+         max-width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .serviceCards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .serviceCards {
+         width: 100%;
+    }
+}
+

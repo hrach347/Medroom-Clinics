@@ -90,31 +90,34 @@
    } 
    
    .description {
-       font-size: 23px;
+       font-size: 25px;
    }
+   .info {
+    height: 40%;
+    
+}
 }
 
 
 
 @media screen and (max-width: 1700px){
-
-    
  .title {
-    font-size: 20px;
+    font-size: 23px;
  }
  .description {
-    font-size: 17px;
+    font-size: 18px;
  }
+ .info {
+    height: 40%;
+    
+}
+ 
 }
 
 @media screen and (max-width: 1200px) {
-    /* .card {
-          width: 45%;
-          height: 50vh;
-    } */
-
+    
     .title {
-          font-size: 25px;
+          font-size: 28px;
     }
 
     .description {
@@ -123,16 +126,56 @@
   }
 
 
- @media screen and (max-width: 1020px) {
-    /* .card {
-          width: 47%;
-          height: 45vh;
-    } */
+  @media screen and (max-width: 1020px) {
+    
+    .title {
+          font-size: 38px;
+    }
+
+    .description {
+         font-size: 23px;
+    }
   }
 
+  @media screen and (max-width: 1024px) {
+    .info {
+         height: 40%;
+    }
+    
+    .title {
+          font-size: 23px;
+    }
+
+    .description {
+         font-size: 18px;
+    }
+  }
+
+
   @media screen and (max-width: 768px) {
-    /* .card {
-          width: 90%;
-          height: 50vh;
-    } */
+    .info {
+         height: 40%;
+    }
+    .title {
+        font-size: 40px;
+
+    }
+    .description {
+         font-size: 20px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+    .info {
+         height: 50%;
+    }
+    .title {
+        font-size: 25px;
+
+    }
+    .description {
+         font-size: 18px;
+    }
   }
