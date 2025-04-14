@@ -1,0 +1,137 @@
+.card {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    position: relative;
+    overflow: hidden;
+    transition: background-size 0.3s ease; 
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0%;
+    height: 150%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%) rotate(45deg);
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .card:hover::after {
+    width: 200%; 
+    background: rgba(255, 255, 255, 0);
+    transition: width 0.8s ease, background 1s ease;
+  }
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,  #00384d, #00384ddb, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    z-index: 0;
+}
+
+.info {
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 20px 15px 20px;
+    gap: 10px;
+    * {
+        z-index: 1;
+    }
+}
+
+.title {
+    font-weight: 2;
+    font-size: 27px;
+    color: white;
+}
+
+.description {
+   font-size: 20px;
+   font-weight: 2;
+   color: white;
+}
+
+.card  button {
+    padding: 10px 25px 10px 25px;
+
+}
+
+.serviceCards {
+   grid-template-columns: repeat(5,1fr);
+}
+
+
+@media (hover: hover) {
+    .card:hover {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 4000px)  {
+   .title {
+        font-size: 27px;
+   } 
+   
+   .description {
+       font-size: 23px;
+   }
+}
+
+
+
+@media screen and (max-width: 1700px){
+
+    
+ .title {
+    font-size: 20px;
+ }
+ .description {
+    font-size: 17px;
+ }
+}
+
+@media screen and (max-width: 1200px) {
+    /* .card {
+          width: 45%;
+          height: 50vh;
+    } */
+
+    .title {
+          font-size: 25px;
+    }
+
+    .description {
+         font-size: 20px;
+    }
+  }
+
+
+ @media screen and (max-width: 1020px) {
+    /* .card {
+          width: 47%;
+          height: 45vh;
+    } */
+  }
+
+  @media screen and (max-width: 768px) {
+    /* .card {
+          width: 90%;
+          height: 50vh;
+    } */
+  }
