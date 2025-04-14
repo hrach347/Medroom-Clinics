@@ -89,10 +89,10 @@
    } 
    
    .description {
-       font-size: 23px;
+       font-size: 25px;
    }
    .info {
-    height: 50%;
+    height: 40%;
     
 }
 }
@@ -101,11 +101,15 @@
 
 @media screen and (max-width: 1700px){
  .title {
-    font-size: 25px;
+    font-size: 23px;
  }
  .description {
-    font-size: 19px;
+    font-size: 18px;
  }
+ .info {
+    height: 40%;
+    
+}
  
 }
 
@@ -121,3 +125,56 @@
   }
 
 
+  @media screen and (max-width: 1020px) {
+    
+    .title {
+          font-size: 38px;
+    }
+
+    .description {
+         font-size: 23px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .info {
+         height: 40%;
+    }
+    
+    .title {
+          font-size: 23px;
+    }
+
+    .description {
+         font-size: 18px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .info {
+         height: 40%;
+    }
+    .title {
+        font-size: 40px;
+
+    }
+    .description {
+         font-size: 20px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+    .info {
+         height: 50%;
+    }
+    .title {
+        font-size: 25px;
+
+    }
+    .description {
+         font-size: 18px;
+    }
+  }

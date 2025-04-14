@@ -7,28 +7,32 @@
     gap: 20px;
 }
 
-
-
 .serviceCards {
-    max-width: 100%;
     width: 90%;
     margin: 5vh 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
     padding: 10px 0px 10px 0px;
     gap: 20px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 2000px) {
+    .serviceCards {
+         max-width: 80%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
     .serviceCards {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1024px) {
     .serviceCards {
-         width: 95%;
+         width: 100%;
     }
 }
 
