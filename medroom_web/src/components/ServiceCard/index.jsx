@@ -1,6 +1,5 @@
-import { Link } from 'react-router'
-import Button from '../Button/button'
-import styles from './style.module.css'
+import { Link } from 'react-router';
+import styles from './style.module.css';
 
 const ServiceCard = ({date}) => {
       return (
