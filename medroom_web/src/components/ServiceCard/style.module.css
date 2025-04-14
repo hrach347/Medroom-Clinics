@@ -22,12 +22,7 @@
     z-index: 0;
     pointer-events: none;
   }
-  
-  .card:hover::after {
-    width: 200%; 
-    background: rgba(255, 255, 255, 0);
-    transition: width 0.8s ease, background 1s ease;
-  }
+
 
 .layer {
     position: absolute;
@@ -80,6 +75,12 @@
         cursor: pointer;
         transition: all 0.3s ease-in-out;
         background-size: 100%;
+    }
+
+    .card:hover::after {
+        width: 200%; 
+        background: rgba(255, 255, 255, 0);
+        transition: width 0.8s ease, background 1s ease;
     }
 }
 

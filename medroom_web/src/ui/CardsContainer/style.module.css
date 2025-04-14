@@ -1,11 +1,13 @@
 .container {
-  height: 65vh;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
+  flex-direction: column;
   background-size: cover;
   background-attachment: fixed;
-  padding: 0px 50px 0px 50px;
+  padding: 20px 50px 25px 50px;
 }
 .text {
   width: 30%;
@@ -16,56 +18,36 @@
   text-transform: uppercase;
 }
 .cards {
-  width: 65%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 75%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 30px;
-  padding-bottom: 30px;
+  > div {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 1280px) {
-  .container {
-    padding: 0px 10px 0px 10px;
-  }
+@media screen and (min-width: 1920px) {
   .cards {
-    width: 75%;
-    gap: 15px;
-    padding-bottom: 15px;
+    width: 70%;
+    gap: 35px;
   }
-  .text {
-    width: 25%;
-  }
-  .text > h1 {
-    font-size: 34px;
-    line-height: 38px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
   .container {
-    height: 50vh;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0px;
-  }
-  .text {
-    width: 80%;
-    height: auto;
-  }
-  .cards{
-    width: 90%;
+    padding: 50px 60px 50px;
+    gap: 40px;
   }
 }
 
 @media screen and (max-width: 720px) {
-    .container{
-        height: auto;
-        padding: 50px 0px 50px 0px;
-        gap: 50px;
-    }
+  .container {
+    padding: 40px 20px ;
+  }
+  .cards {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 360px) {
     .text{
