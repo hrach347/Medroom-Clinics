@@ -1,7 +1,8 @@
 import ServiceCard from "../../components/ServiceCard"
 import alexandrit from '../../Assets/Images/kosmet.JPG'
+import video1 from '../../Assets/Videos/Procedure.mp4'
 
-const data = [
+const dataList = [
     {   
         id: 1,
         title : 'Մազերի փոխպատվաստում',
@@ -84,4 +85,26 @@ const data = [
     },
 ]
 
-export const pendingCards =  data.map((date) => <ServiceCard date = {date}/>)
+export const productionData = {
+    video: video1,
+    title: 'Expert dermatology care for healthy, radiant skin',
+    description: 'From preventive care to specialized treatments, our wide range of services is designed to support your health at every stage.',
+    lists: [
+        {
+            name: 'Expert Dermatologists'
+        },
+        {
+            name: 'Expert Dermatologists'
+        },{
+            name: 'Expert Dermatologists'
+        },{
+            name: 'Expert Dermatologists'
+        },{
+            name: 'Expert Dermatologists'
+        },{
+            name: 'Expert Dermatologists'
+        }
+    ]
+}
+
+export const pendingCards =  dataList.map((date) => <ServiceCard date = {date}/>)
