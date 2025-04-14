@@ -1,0 +1,23 @@
+.container {
+    width: 100%;   
+    border: solid;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceCards {
+    width: 90%;
+    margin: 5vh 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 10px 0px 10px 0px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+    .serviceCards {
+         width: 95%;
+    }
+}
