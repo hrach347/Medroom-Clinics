@@ -91,29 +91,28 @@
    .description {
        font-size: 23px;
    }
+   .info {
+    height: 50%;
+    
+}
 }
 
 
 
 @media screen and (max-width: 1700px){
-
-    
  .title {
-    font-size: 20px;
+    font-size: 25px;
  }
  .description {
-    font-size: 17px;
+    font-size: 19px;
  }
+ 
 }
 
 @media screen and (max-width: 1200px) {
-    /* .card {
-          width: 45%;
-          height: 50vh;
-    } */
-
+    
     .title {
-          font-size: 25px;
+          font-size: 28px;
     }
 
     .description {
@@ -122,16 +121,3 @@
   }
 
 
- @media screen and (max-width: 1020px) {
-    /* .card {
-          width: 47%;
-          height: 45vh;
-    } */
-  }
-
-  @media screen and (max-width: 768px) {
-    /* .card {
-          width: 90%;
-          height: 50vh;
-    } */
-  }
