@@ -5,15 +5,21 @@ import icons from '../../Assets/icons/Symbol.png'
 
     const pendingLists = data.lists.map((list) => {
          return (
-             <p><img src={icons}/>{list.name}</p>
+             <p key={Math.random()}><img src={icons}/>{list.name}</p>
          )
+    })
+
+    const pendingDescriptions = data.descriptions.map((list) => {
+        return (
+             <li className={styles.description} key={Math.random()}>{list.description}</li>
+        )
     })
      return (
         <div className={styles.container}>
             <video className={styles.leftSide}
+            controls 
             autoPlay 
-            muted 
-            loop
+             loop
              >
                 <source type="video/mp4"  src={data.video} />
             </video>
@@ -21,7 +27,7 @@ import icons from '../../Assets/icons/Symbol.png'
                 <div className={styles.rightChild}>
                     <p className={styles.proces}><div></div>Պռոցես</p>
                     <p className={styles.title}>{data.title}</p>
-                    <p className={styles.description}>{data.description}</p>
+                    <ul className={styles.descriptions}>{pendingDescriptions}</ul>
                     <div className={styles.lists}>
                      {pendingLists}
                     </div>
