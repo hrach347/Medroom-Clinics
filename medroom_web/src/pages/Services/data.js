@@ -88,7 +88,11 @@ const dataList = [
 export const productionData = {
     video: video1,
     title: 'Expert dermatology care for healthy, radiant skin',
-    description: 'From preventive care to specialized treatments, our wide range of services is designed to support your health at every stage.',
+    descriptions: [
+        {description: ' range of services is designed to support your health at every stage.'},
+        {description : " range of services is designed to support your health at every stage."},
+        {description: 'range of services is designed to support your health at every stage.'},
+    ],
     lists: [
         {
             name: 'Expert Dermatologists'
