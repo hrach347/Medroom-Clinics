@@ -1,5 +1,6 @@
 import clinicServices from "../../Assets/Images/MerMasin.PNG";
 import doctorVahe from "../../Assets/Images/doctor2.jpg";
+  
 
 export const dataAlexandrit = {
   title: "Լազեռային Մազահեռացում",
