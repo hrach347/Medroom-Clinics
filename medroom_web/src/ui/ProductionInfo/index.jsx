@@ -16,10 +16,12 @@ import icons from '../../Assets/icons/Symbol.png'
     })
      return (
         <div className={styles.container}>
-            <video className={styles.leftSide}
-            controls 
-            autoPlay 
-             loop
+            <video 
+                className={styles.leftSide}
+                muted
+                controls 
+                autoPlay 
+                loop
              >
                 <source type="video/mp4"  src={data.video} />
             </video>

@@ -1,9 +1,9 @@
-import styles from "./style.module.css"
-import location from "../../Assets/icons/location.svg"
-import telephone from "../../Assets/icons/telephone.svg"
-import mail from "../../Assets/icons/mail.svg"
-import logo from "../../Assets/Images/logo.png"
-import { Link } from "react-router"
+import styles from "./style.module.css";
+import location from "../../Assets/icons/location.svg";
+import telephone from "../../Assets/icons/telephone.svg";
+import mail from "../../Assets/icons/mail.svg";
+import logo from "../../Assets/Images/logo.png";
+import { Link } from "react-router";
 
 const Footer = () => {
   const linkIcons = ["", "", "", ""]

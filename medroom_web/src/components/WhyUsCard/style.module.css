@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    background: linear-gradient(45deg, #00394dcd, #6ee8e1);
+    margin-bottom: 10%;
+    padding: 10% 2% 3%; 
+    color: white;
+    display: grid;
+    grid-template-areas: 'left middle right';
+    grid-template-columns: repeat(3, 1fr);
+    /* > div {
+        border: 1px solid red;
+    } */
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    grid-area: left;
+}
+
+
+.middle {
+    grid-area: middle;
+    
+}
+
+.rightSide {
+    grid-area: right;
+}
+
+.whyUs {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-areas: 
+        'left'
+        'right'
+        'middle';
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
