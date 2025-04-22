@@ -25,7 +25,7 @@ import icons from '../../Assets/icons/Symbol.png'
             </video>
             <div className={styles.rightSide}>
                 <div className={styles.rightChild}>
-                    <p className={styles.proces}><div></div>Պռոցես</p>
+                    <p className={styles.proces}>◉ Պռոցես</p>
                     <p className={styles.title}>{data.title}</p>
                     <ul className={styles.descriptions}>{pendingDescriptions}</ul>
                     <div className={styles.lists}>
