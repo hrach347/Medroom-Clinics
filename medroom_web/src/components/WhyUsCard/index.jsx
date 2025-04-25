@@ -1,5 +1,5 @@
 import styles from './style.module.css';
-import doc from '../../Assets/Images/nune.jpg'
+import doc from '../../Assets/Images/nune.jpg';
 
 const WhyChooseUs = () => {
 
@@ -15,7 +15,6 @@ const WhyChooseUs = () => {
                     անհատական բուժում և հոգատար սպասարկում:
                 </p>
             </div> 
-
             <div 
                 className={styles.middle} 
                 // style={{background: `url(${doc})`}}

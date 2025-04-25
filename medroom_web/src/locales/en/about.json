@@ -1,0 +1,28 @@
+{
+    "pageTitle": "About Us",
+    "pageDescription": "The effectiveness of hair removal depends not only on the equipment but also on the specialist's expertise. Properly selected parameters, precise assessment of skin and hair characteristics, and a professional approach ensure safe, pain-free, and long-lasting results.",
+    "firstCardData": {
+        "title": "Our specialists are ready to provide safe and high-quality hair removal",
+        "description": "Safe and expert care for your needs",
+        "subtitle":
+          "Flawlessly smooth skin, no pain, no irritation, no unwanted hair. Alexandrite laser offers a quick, safe, and highly effective treatment, gentle enough for even the most sensitive skin.",
+        "to": "/",
+        "buttonContent": "Learn more"
+    },
+    "secondCardData": {
+        "title": "Our specialists are ready to provide safe and high-quality hair removal",
+        "description": "Safe and expert care for your needs",
+        "subtitle":
+          "Flawlessly smooth skin, no pain, no irritation, no unwanted hair. Alexandrite laser offers a quick, safe, and highly effective treatment, gentle enough for even the most sensitive skin.",
+        "to": "/",
+        "buttonContent": "Learn more"
+    },
+    "qualityBox": {
+        "title": "Quality",
+        "description1": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure.",
+        "description2": "A personalized approach tailored to each client.",
+        "description3": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure.",
+        "description4": "Flawless results — no burns, no discomfort.",
+        "description5":  "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure."
+    }
+}

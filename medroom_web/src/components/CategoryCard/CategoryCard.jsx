@@ -5,7 +5,8 @@ import { containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 import Button from "../Button/button";
 
-const CategoryCard = ({ data }) => {
+const CategoryCard = ({ data, image }) => {
+
   const {ref, inView} = useInView({
     triggerOnce: true,
     threshold: 0.5
@@ -32,12 +33,12 @@ const CategoryCard = ({ data }) => {
             variants={textVariants}
           ></motion.div>
           <motion.span variants={textVariants}>{data.subtitle}</motion.span>
-            <Button content='Իմանալ ավելին' to={data.to}/>
+            <Button content={data.buttonContent} to={data.to}/>
         </motion.div>
       </div>
       <div
         className={styles.aboutRight}
-        style={{ backgroundImage: `url(${data.image})` }}
+        style={{ backgroundImage: `url(${image})` }}
       ></div>
     </div>
   );

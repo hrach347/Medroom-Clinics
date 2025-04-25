@@ -4,40 +4,52 @@ import Title from "../../components/Title/index"
 import { motion } from "framer-motion"
 import MapInContact from "../../components/MapInContact";
 import HelperCard from "../../components/HelperCard";
-
-const inpInfo = [
-  { name: "Name", type: "text", },
-  { name: "Email", type: "email", },
-  { name: "Phone Number", type: "number", },
-  { name: "Clinic branch", type: "text", },
-  { name: "Message", type: "text", },
-]
+import { useTranslation } from "react-i18next";
+import Button from "../../components/Button/button";
 
 function Contact() {
+
+  const { t } = useTranslation('contact');
+
+  const labels = t('labels', {returnObjects: true});
+  const placeholders = t('placeholders', {returnObjects: true});
+
   return (
     <div className={styles.container}>
-      <div className={styles.topPictureContainer} style={{ backgroundImage: `url(${decorativeRoom})` }}>
-      </div>
+      <div className={styles.topPictureContainer} style={{ backgroundImage: `url(${decorativeRoom})` }} />
       <div className={styles.mainContainer}>
         <div className={styles.registerContainer}>
-          <Title>Contact Us</Title>
-          <p>Send us a message about what you’ve got planned, how we can help and we’ll be right back in touch.</p>
+
+          <Title>{t('pageTitle')}</Title>
+
+          <p>{t('description')}</p>
+
           <motion.form
             className={styles.contactContainer}
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
           >
-            {
-              inpInfo.map((element, index) => {
-                return (
-                  <div className={styles.inpContainer} key={index}>
-                    <label htmlFor={index + "input"}>{element.name}</label>
-                    <input type={element.type} id={index + "input"} placeholder=" " required />
-                  </div>
-                )
-              })
-            }
+
+            <div className={styles.forName}>
+              <label htmlFor="name">{labels.name}</label>
+              <input type="text" id="name" placeholder={placeholders.name} required/>
+            </div>
+
+            <div className={styles.forEmail}>
+              <label htmlFor="email">{labels.email}</label>
+              <input type="email" id="email" placeholder={placeholders.email} required/>
+            </div>
+
+            <div className={styles.forMessage}>
+              <label htmlFor="message">{labels.message}</label>
+              <textarea id="message" placeholder={placeholders.message} required/>
+            </div>
+
+            <div className={styles.forBtn}>
+              <Button content={labels.send} />
+            </div>
+
           </motion.form>
         </div>
         <div className={styles.mapContainer}>
