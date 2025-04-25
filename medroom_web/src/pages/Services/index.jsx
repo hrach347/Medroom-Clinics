@@ -8,7 +8,7 @@ function Services() {
 
   return (
     <div className={styles.container}>
-      <WelcomeCard title = 'Ծառայություններ' title2='Home / Services'/>
+      <WelcomeCard title='Ծառայություններ' title2='Home / Services'/>
       <div className={styles.serviceCards}>
         {pendingCards}
       </div>

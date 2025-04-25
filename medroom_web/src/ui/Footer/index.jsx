@@ -44,7 +44,7 @@ const Footer = () => {
           <ul className={styles.list}>
             {
               pages.map((element, index) => {
-                return <li className={styles.linkList}><Link to={element.link} key={index}>{element.name}</Link></li>
+                return <li className={styles.linkList} key={index}><Link to={element.link} key={index}>{element.name}</Link></li>
               })
             }
           </ul>
@@ -53,9 +53,7 @@ const Footer = () => {
           <h3>WE ARE SOCIAL NETWORKS</h3>
           <hr />
           <div className={styles.iconsContainer}>
-            {
-              linkIcons.map((element, index) => <img src={element} width="24px" height="24px" key={index} />)
-            }
+           
           </div>
         </div>
       </div>

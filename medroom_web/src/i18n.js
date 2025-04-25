@@ -9,6 +9,9 @@ import aboutRU from './locales/ru/about.json';
 import contactEN from './locales/en/contact.json';
 import contactHY from './locales/hy/contact.json';
 import contactRU from './locales/ru/contact.json';
+import headerEN from './locales/en/header.json';
+import headerHY from './locales/hy/header.json';
+import headerRU from './locales/ru/header.json';
 // import homeHY from './locales/hy/home.json';
 
 
@@ -18,22 +21,23 @@ i18n
   .init({
     resources: {
       en: {
-        // home: homeEN,
         about: aboutEN,
         contact: contactEN,
+        header: headerEN,
       },
       hy: {
-        // home: homeHY,
         about: aboutHY,
         contact: contactHY,
+        header: headerHY,
       },
       ru: {
         about: aboutRU,
         contact: contactRU,
+        header: headerRU,
       }
     },
     fallbackLng: 'hy',
-    ns: ['contact', 'about'],
+    ns: ['header', 'contact', 'about'],
     // defaultNS: 'home',
     interpolation: {
       escapeValue: false,

@@ -11,5 +11,9 @@
         "email": "Your email address",
         "name": "Your full name",
         "message": "Type your message here..."
+    },
+    "helperCard": {
+        "title": "WE ARE ON SOCIAL MEDIA",
+        "description": "Here you will find us on social media"
     }
 }

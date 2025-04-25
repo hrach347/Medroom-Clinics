@@ -6,6 +6,7 @@ import font2 from "../../Assets/Images/font2.png";
 import image from "../../Assets/Images/girlsImage.jpg";
 import styles from "./style.module.css";
 import { useTranslation } from "react-i18next";
+import WelcomeCard from "../../components/WelcomeCard";
 
 
 function About() {
@@ -19,7 +20,7 @@ function About() {
 
   return (
     <div className={styles.container}>
-      <Title>{t('pageTitle')}</Title>
+      <WelcomeCard title={t('pageTitle')} title2='home / About' />
       <p>{t('pageDescription')}</p>
      
       <AboutPart data={firstCardData} background={font} image={image}/>

@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
 import { NavLink, Link, useLocation } from "react-router";
+import { useTranslation } from "react-i18next";
 
 import logo from "../../Assets/Images/logo.png";
 import styles from "./style.module.css";
 
 function Header() {
+
+  const { t } = useTranslation('header');
+
   const [isOpened, setIsOpened] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const currentLocation = useLocation()
@@ -41,11 +45,11 @@ function Header() {
     <div className={`${styles.container} ${isScrolled ? styles.scrolled : ""}`}>
         <img src={logo} alt="" />
       <div className={styles.menu}>
-        <NavLink to="/" className={({isActive}) => (isActive ? styles.active : '')}>Գլխավոր</NavLink>
-        <NavLink to="/About"  className={({isActive}) => (isActive ? styles.active : '')}>Մեր Մասին</NavLink>
-        <NavLink to="/Services"  className={({isActive}) => (isActive ? styles.active : '')}>Ծառայություններ</NavLink>
-        <NavLink to="/Staff"  className={({isActive}) => (isActive ? styles.active : '')}>Թիմ</NavLink>
-        <NavLink to="/Contact"  className={({isActive}) => (isActive ? styles.active : '')}>Կապ</NavLink>
+        <NavLink to="/" className={({isActive}) => (isActive ? styles.active : '')}>{t('home')}</NavLink>
+        <NavLink to="/About"  className={({isActive}) => (isActive ? styles.active : '')}>{t('about')}</NavLink>
+        <NavLink to="/Services"  className={({isActive}) => (isActive ? styles.active : '')}>{t('services')}</NavLink>
+        <NavLink to="/Staff"  className={({isActive}) => (isActive ? styles.active : '')}>{t('team')}</NavLink>
+        <NavLink to="/Contact"  className={({isActive}) => (isActive ? styles.active : '')}>{t('contact')}</NavLink>
       </div>
       <div
         className={`${styles.menuIcon} ${isOpened ? styles.openedIcon : ""}`}

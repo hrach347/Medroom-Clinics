@@ -6,6 +6,7 @@ import MapInContact from "../../components/MapInContact";
 import HelperCard from "../../components/HelperCard";
 import { useTranslation } from "react-i18next";
 import Button from "../../components/Button/button";
+import WelcomeCard from "../../components/WelcomeCard";
 
 function Contact() {
 
@@ -14,21 +15,19 @@ function Contact() {
   const labels = t('labels', {returnObjects: true});
   const placeholders = t('placeholders', {returnObjects: true});
 
+  const helperCard = t('helperCard', {returnObjects: true});
+
   return (
     <div className={styles.container}>
-      <div className={styles.topPictureContainer} style={{ backgroundImage: `url(${decorativeRoom})` }} />
+      <WelcomeCard title={t('pageTitle')} title2='Home / Contact Us' />
       <div className={styles.mainContainer}>
+        <h2 className={styles.description}>{t('description')}</h2>
         <div className={styles.registerContainer}>
-
-          <Title>{t('pageTitle')}</Title>
-
-          <p>{t('description')}</p>
-
           <motion.form
             className={styles.contactContainer}
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
           >
 
             <div className={styles.forName}>
@@ -56,7 +55,7 @@ function Contact() {
           <MapInContact map={<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.0882215965016!2d44.51512697528009!3d40.18485006972097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd0e944eb847%3A0x30a9426a15d816b2!2sMedRoom%20Clinic!5e0!3m2!1sen!2sam!4v1742576460558!5m2!1sen!2sam" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>} location="11 Sayat-Nova Ave, Yerevan 0001" phoneNumber="+374 000 000" telegram="clinic telegram" clinicName="MEDROOM CLINIC" xCordinat="-50%" />
           <MapInContact map={<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.0882215965016!2d44.51512697528009!3d40.18485006972097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd0e944eb847%3A0x30a9426a15d816b2!2sMedRoom%20Clinic!5e0!3m2!1sen!2sam!4v1742576460558!5m2!1sen!2sam" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>} location="11 Sayat-Nova Ave, Yerevan 0001" phoneNumber="+374 000 000" telegram="clinic telegram" clinicName="MEDROOM CLINIC" xCordinat="50%" />
         </div>
-        <HelperCard />
+        <HelperCard data={helperCard}/>
       </div>
     </div>
   );
