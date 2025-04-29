@@ -5,6 +5,7 @@ import { containerVariants, textVariants } from "./animate";
 import styles from "./style.module.css";
 import Button from "../Button/button";
 
+
 const CategoryCard = ({ data, image }) => {
 
   const {ref, inView} = useInView({

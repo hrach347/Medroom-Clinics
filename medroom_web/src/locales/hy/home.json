@@ -1,0 +1,156 @@
+{
+    "dataAlexandrit": {
+        "title": "Լազեռային Մազահեռացում",
+        "description": "Անվտանգ և պրոֆեսիոնալ մոտեցում",
+        "subtitle":
+          "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները՝ ապահովելով անվտանգ, արագ և արդյունավետ արդյունք:",
+        "image": "MerMasin.PNG",
+        "to": "/Services/alexandrit",
+        "buttonContent": "Իմանալ ավելին"
+    },
+    "dataPoxpatvastum": {
+        "title": "Մազերի փոխպատվաստում",
+        "description": "Թափվող և նոսր մազերն արդեն անցյալում են:",
+        "subtitle":
+            "Փոխպատվաստված մազերը կսկսեն աճել 3-րդ ամսվանից, իսկ վերջնական արդյունքը տեսանելի կլինի 1 տարի անց:",
+        "image": "doctor2.jpg",
+        "to": "/Services/transplant",
+        "buttonContent": "Իմանալ ավելին"
+    },
+    "decorationCard": {
+        "title": "Կապնվեք մեզ հետ",
+        "description": "Մենք վստահ ենք, որ կկարողանանք ձեր բժշկական պրակտիկայի համար առաջարկել լավագույն լուծումը: Կապնվեք մեզ հետ՝ մեր ծառայությունների և աջակցության մասին ավելին իմանալու համար:",
+        "buttonContent": "Կապ"
+    },
+    "whyUs": {
+        "title": "Ինչու՞ ընտրել մեզ",
+        "cards": [
+            {
+                "image": "quality.svg",
+                "text": "Բարձր որակ"
+              },
+              {
+                "image": "people.svg",
+                "text": "Պրոֆեսիոնալ թիմ"
+              },
+              {
+                "image": "heart.svg",
+                "text": "Անհատական մոտեցում"
+              },
+              {
+                "image": "sale.svg",
+                "text": "Մատչելի գներ"
+              },
+              {
+                "image": "quality.svg",
+                "text": "Փորձառու մասնագետներ"
+              },
+              {
+                "image": "time.svg",
+                "text": "Հերթեր չկան"
+              }
+        ]
+    },
+    "blogsData": {
+        "title": "Մասնագիտական անկյուններ",
+        "blogs": [
+            {
+                "url": "/Assets/Images/poxpatvastum.jpg",
+                "title":
+                  "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
+                "description": "Մազերի փոխպատվաստում",
+                "id": 1,
+                "to": "/Services/transplant",
+                "buttonContent": "Ավելին"
+            },
+            {
+                "url": "/Assets/Images/alexsandrit.jpg",
+                "title":
+                  "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
+                "description": "Ալեքսանդրիտային մազահեռացում",
+                "id": 2,
+                "to": "/Services/alexandrit",
+                "buttonContent": "Ավելին"
+            },  
+            {   
+                "url": "/Assets/Images/kosmet.JPG",
+                "title":
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "description": "Կոսմետոլոգիա",
+                "id": 3,
+                "to": "/Services/kosmetologia",
+                "buttonContent": "Ավելին"
+            },  
+            {   
+                "url": "/Assets/Images/mshX.JPG",
+                "title": "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
+                "description": "մաշկի խնամք",
+                "id": 4,
+                "to": "/Services/mashkXnamq",
+                "buttonContent": "Ավելին"
+            },  
+
+            {   
+                "url": "/Assets/Images/mashXord.JPG",
+                "title": "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
+                "description": "Մաշկաբանության խորհրդատվություն",
+                "id": 5,
+                "to": "/Services/mashkXorhrdatvutyun",
+                "buttonContent": "Ավելին"
+            },  
+            {   
+                "url": "/Assets/Images/turboSalary.jpg",
+                "title":
+                  "Հատուկ ջրային ռեժիմը խոնավեցնում է մաշկը, կանխում չորացումը և տալիս թարմության զգացում",
+                "description": "Տուրբո Սոլյարին ",
+                "id": 6,
+                "to": "/Services/turboSalary",
+                "buttonContent": "Ավելին"
+            },  
+            
+            {   
+                "url": "/Assets/Images/Mersumimg.jpg",
+                "title":
+                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                "description": "մերսում",
+                "id": 7,
+                "to": "/Services/mersum",
+                "buttonContent": "Ավելին"
+            },  
+            {   
+                "url": "/Assets/Images/Mersumimg.jpg",
+                "title":
+                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                "description": "մերսում",
+                "id": 8,
+                "to": "/Services/hakapigment",
+                "buttonContent": "Ավելին"
+            },  
+            {   
+                "url": "/Assets/Images/asexain.jpg",
+                "title":
+                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                "description": "մերսում",
+                "id": 9,
+                "to": "/Services/asexain",
+                "buttonContent": "Ավելին"
+            },  
+            {   
+                "url": "/Assets/Images/Mersumimg.jpg",
+                "title":
+                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                "description": "մերսում",
+                "id": 10,
+                "to": "/Services/mazanot",
+                "buttonContent": "Ավելին"
+            }   
+        ]
+    },
+    "clinicInformation":  [
+        { "account": 10, "text": "Գործընկերներ" },
+        { "account": 10, "text": "Աշխատակազմ" },
+        { "account": 200, "text": "Հաճախորդներ" },
+        { "account": 500, "text": "Ծառայություններ" },
+        { "account": 7, "text": "Փորձի տարիներ" }
+    ]
+}

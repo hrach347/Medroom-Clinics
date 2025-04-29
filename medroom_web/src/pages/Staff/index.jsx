@@ -1,13 +1,17 @@
 import StaffCard from "../../components/StaffCard/index.jsx";
-import Title from "../../components/Title/index.jsx";
-
-import data from "./data.js";
+import { useTranslation } from "react-i18next";
 import styles from "./style.module.css";
+import WelcomeCard from "../../components/WelcomeCard/index.jsx";
 
 function Staff() {
+
+  const { t } = useTranslation('staff');
+
+  const data = t('data', {returnObjects: true});
+
   return (
     <div className={styles.container}>
-      <Title>Մեր Բժիշկները</Title>
+     <WelcomeCard title={t('pageTitle')} title2={'Home / Our Team'} />
       <div className={styles.cards}>
         {data.map((person) => {
           return <StaffCard {...person} />;

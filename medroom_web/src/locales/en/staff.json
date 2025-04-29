@@ -1,0 +1,45 @@
+{
+    "pageTitle": "Our Team",
+    "data": [
+        {
+            "name": "Vahan Melikovich",
+            "profession": "Aesthetic Physician, Maxillofacial Surgeon",
+            "image": "/Assets/Images/vahan.jpg"
+        },
+        {
+            "name": "Nune Davtyan",
+            "profession": "Aesthetic Cosmetologist",
+            "image": "/Assets/Images/nune.jpg"
+        },
+        {
+            "name": "Mariam Yesayan",
+            "profession": "Laser Hair Removal Specialist, Cosmetologist",
+            "image": "/Assets/Images/mariam.jpg"
+        },
+        {
+            "name": "Irina Markosyan",
+            "profession": "Laser Hair Removal Specialist",
+            "image": "/Assets/Images/irina.jpg"
+        },
+        {
+            "name": "Mari Muradyan",
+            "profession": "Laser Hair Removal Specialist",
+            "image": "/Assets/Images/mariMuradyan.jpg"
+        },
+        {
+            "name": "Narek Avdalyan",
+            "profession": "Therapeutic and Classical Massage Specialist",
+            "image": "/Assets/Images/avdalyan.jpg"
+        },
+        {
+            "name": "Armine Abrahamyan",
+            "profession": "Laser Hair Removal Specialist",
+            "image": "/Assets/Images/armine.jpg"
+        },
+        {
+            "name": "Liana Kirakosyan",
+            "profession": "Laser Hair Removal Specialist",
+            "image": "/Assets/Images/liana.jpg"
+        }
+    ]
+}

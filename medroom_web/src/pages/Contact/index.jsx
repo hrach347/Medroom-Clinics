@@ -1,6 +1,4 @@
 import styles from "./style.module.css";
-import decorativeRoom from "../../Assets/Images/decorativeRoom.webp"
-import Title from "../../components/Title/index"
 import { motion } from "framer-motion"
 import MapInContact from "../../components/MapInContact";
 import HelperCard from "../../components/HelperCard";

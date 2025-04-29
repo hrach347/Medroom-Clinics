@@ -1,19 +1,29 @@
-import { pendingCards, productionData } from "./data";
 import styles from "./style.module.css";
 import WelcomeCard from "../../components/WelcomeCard";
 import ProductionInfo from "../../ui/ProductionInfo";
 import WhyChooseUs from "../../components/WhyUsCard";
+import { useTranslation } from "react-i18next";
+import ServiceCard from "../../components/ServiceCard";
 
 function Services() {
 
+  const { t } = useTranslation('services');
+  const pendingCardsData = t('cardsData', {returnObjects: true});
+  const productionData = t('productionData', {returnObjects: true});
+  const whyUsData = t('whyUsData', {returnObjects: true});
+
   return (
     <div className={styles.container}>
-      <WelcomeCard title='Ծառայություններ' title2='Home / Services'/>
+      <WelcomeCard title={t('pageTitle')} title2='Home / Services'/>
       <div className={styles.serviceCards}>
-        {pendingCards}
+        {
+          pendingCardsData.map((data, index) => {
+            return <ServiceCard key={index} data={data}/>
+          })
+        }
       </div>
       <ProductionInfo data={productionData}/>
-      <WhyChooseUs />
+      <WhyChooseUs data={whyUsData}/>
     </div>
   )
 }

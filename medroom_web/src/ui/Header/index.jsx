@@ -2,12 +2,11 @@ import { useEffect, useState } from "react";
 import { NavLink, Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 
-import logo from "../../Assets/Images/logo.png";
 import styles from "./style.module.css";
 
 function Header() {
 
-  const { t } = useTranslation('header');
+  const { t, i18n } = useTranslation('header');
 
   const [isOpened, setIsOpened] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,9 +40,20 @@ function Header() {
     setIsOpened(!isOpened);
   };
 
+  const handleChangeLanguage = (e) => {
+    const lang = e.target.value;
+    i18n.changeLanguage(lang)
+  }
+
   return (
     <div className={`${styles.container} ${isScrolled ? styles.scrolled : ""}`}>
-        <img src={logo} alt="" />
+        <img src='/Assets/Images/logo.png' alt="" />
+
+        <select className={styles.select} onChange={handleChangeLanguage} defaultValue={i18n.language}>
+          <option value="hy">Հայերեն</option>
+          <option value="en">English</option>
+          <option value="ru">Русский</option>
+        </select>
       <div className={styles.menu}>
         <NavLink to="/" className={({isActive}) => (isActive ? styles.active : '')}>{t('home')}</NavLink>
         <NavLink to="/About"  className={({isActive}) => (isActive ? styles.active : '')}>{t('about')}</NavLink>
@@ -64,11 +74,11 @@ function Header() {
           isOpened ? styles.openedMobileMenu : ""
         }`}
       >
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Services">Services</Link>
-        <Link to="/Staff">Staff</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/">{t('home')}</Link>
+        <Link to="/About">{t('about')}</Link>
+        <Link to="/Services">{t('services')}</Link>
+        <Link to="/Staff">{t('team')}</Link>
+        <Link to="/Contact">{t('contact')}</Link>
       </div>
     </div>
   );

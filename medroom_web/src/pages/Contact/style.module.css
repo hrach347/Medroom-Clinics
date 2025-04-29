@@ -57,10 +57,12 @@
 .forEmail, .forMessage, .forName {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 10px;
 }
 
 .forEmail input, .forName input {
+  width: 100%;
   height: 35px;
   border-radius: 10px;
   border: none;
@@ -80,6 +82,7 @@ input::placeholder {
 }
 
 .forMessage textarea {
+  width: 100%;
   resize: none;
   padding: 10px;
   font-size: 16px;
@@ -147,17 +150,12 @@ input::placeholder {
 }
 
 @media screen and (max-width: 590px) {
-  .topPictureContainer {
-    background-image: none;
-  }
-
-  .topPictureContainer > h1 {
-    color: red;
-  }
-
   .contactContainer {
-    grid-template-columns: 100%;
-    padding: 14% 5%;
+    grid-template-areas: 
+    'name'
+    'email'
+    'message'
+    'button';
   }
 
   .mapContainer > div {

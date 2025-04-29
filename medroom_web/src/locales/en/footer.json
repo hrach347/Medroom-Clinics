@@ -1,0 +1,14 @@
+{
+    "titles": {
+        "contacts": "Our Contacts",
+        "map": "Site map",
+        "social": "We Are on Social Networks"
+    },
+    "pages": [
+        { "name": "Home", "link": "/" },
+        { "name": "About", "link": "/About" },
+        { "name": "Contact Us", "link": "/Contact" },
+        { "name": "Our Team", "link": "/Staff" },
+        { "name": "Services", "link": "/Services" }
+    ]
+}

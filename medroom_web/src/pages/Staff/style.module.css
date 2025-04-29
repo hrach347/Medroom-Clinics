@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   gap: 100px;
-  padding: calc(10vh + 50px) 20px 0px 20px;
+  padding: 12vh 0;
 }
 
 .cards {

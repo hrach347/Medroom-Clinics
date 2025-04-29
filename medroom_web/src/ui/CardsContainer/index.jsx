@@ -1,21 +1,19 @@
 import AdvantageCard from "../../components/AdvantageCard";
 import Title from "../../components/Title";
-import data from "./data.js";
 
-import background from "../../Assets/Images/backgroundPattern.png";
 import styles from "./style.module.css";
 
-const CardsContainer = () => {
+const CardsContainer = ({ data }) => {
   return (
     <div
       className={styles.container}
-      style={{ backgroundImage: `url(${background})` }}
+      style={{ backgroundImage: `url(/Assets/Images/backgroundPattern.png)` }}
     >
       <div className={styles.text}>
-        <Title>Ինչու՞ ընտրել մեզ</Title>
+        <Title>{data.title}</Title>
       </div>
       <div className={styles.cards}>
-        {data.map((card, index) => (
+        {data.cards.map((card, index) => (
           <AdvantageCard key={index} text={card.text} image={card.image} />
         ))}
       </div>

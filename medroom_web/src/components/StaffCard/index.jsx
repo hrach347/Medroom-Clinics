@@ -1,6 +1,7 @@
 import styles from "./style.module.css";
 
 const StaffCard = ({ name, profession, image }) => {
+
   return (
     <div className={styles.container}>
       <img src={image} alt="" />

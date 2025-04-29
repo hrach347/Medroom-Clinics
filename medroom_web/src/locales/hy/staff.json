@@ -1,0 +1,45 @@
+{
+    "pageTitle": "Թիմ",
+    "data": [
+        {
+            "name": "Վահան Մելիկովիչ",
+            "profession": "Բժիշկ-էսթետիստ, Դիմածնոտային Վիրաբույժ",
+            "image": "/Assets/Images/vahan.jpg"
+          },
+          {
+            "name": "Նունե Դավթյան",
+            "profession": "Բժիշկ-կոսմետոլոգ էսթետ",
+            "image": "/Assets/Images/nune.jpg"
+          },
+          {
+            "name": "Մարիամ Եսայան",
+            "profession": "Լազեռային մազահեռացման մասնագետ, Կոսմետոլոգ",
+            "image": "/Assets/Images/mariam.jpg"
+          },
+          {
+            "name": "Իրինա Մարկոսյան",
+            "profession": "Լազեռային մազահեռացման մասնագետ",
+            "image": "/Assets/Images/irina.jpg"
+          },
+          {
+            "name": "Մարի Մուրադյան",
+            "profession": "Լազեռային մազահեռացման մասնագետ",
+            "image": "/Assets/Images/mariMuradyan.jpg"
+          },
+          {
+            "name": "Նարեկ Ավդալյան",
+            "profession": "Բուժական և դասական մերսման մասնագետ",
+            "image": "/Assets/Images/avdalyan.jpg"
+          },
+          {
+            "name": "Արմինե Աբրահամյան",
+            "profession": "Լազեռային մազահեռացման մասնագետ",
+            "image": "/Assets/Images/armine.jpg"
+          },
+          {
+            "name": " Լիանա Կիրակոսյան",
+            "profession": "Լազեռային մազահեռացման մասնագետ",
+            "image": "/Assets/Images/liana.jpg"
+          }
+    ]
+}

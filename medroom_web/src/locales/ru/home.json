@@ -1,0 +1,146 @@
+{
+    "dataAlexandrit": {
+        "title": "Лазерная Эпиляция",
+        "description": "Безопасный и профессиональный подход",
+        "subtitle":
+          "Александритовую эпиляцию в нашем центре проводят специалисты с медицинским образованием, обеспечивая безопасный, быстрый и эффективный результат.",
+        "image": "MerMasin.PNG",
+        "to": "/Services/alexandrit",
+        "buttonContent": "Подробнее"
+    },
+    "dataPoxpatvastum": {
+        "title": "Пересадка Волос",
+        "description": "Выпадающие и редкие волосы уже в прошлом.",
+        "subtitle":
+            "Пересаженные волосы начнут расти с 3-го месяца, а окончательный результат будет виден через 1 год.",
+        "image": "doctor2.jpg",
+        "to": "/Services/transplant",
+        "buttonContent": "Подробнее"
+    },
+    "decorationCard": {
+        "title": "Свяжитесь с нами",
+        "description": "Мы уверены, что сможем предложить вам оптимальное решение для вашей медицинской практики. Свяжитесь с нами, чтобы узнать больше о наших услугах и о том, как мы можем вам помочь.",
+        "buttonContent": "Контакт"
+    },
+    "whyUs": {
+        "title": "Почему стоит выбрать нас",
+        "cards": [
+            {
+                "image": "quality.svg",
+                "text": "Высокое качество"
+            },
+            {
+                "image": "people.svg",
+                "text": "Профессиональная команда"
+            },
+            {
+                "image": "heart.svg",
+                "text": "Индивидуальный подход"
+            },
+            {
+                "image": "sale.svg",
+                "text": "Доступные цены"
+            },
+            {
+                "image": "quality.svg",
+                "text": "Опытные специалисты"
+            },
+            {
+                "image": "time.svg",
+                "text": "Нет очередей"
+            }
+        ]
+    },
+    "blogsData": {
+        "title": "Профессиональные аспекты",
+        "blogs": [
+        {
+            "url": "/Assets/Images/poxpatvastum.jpg",
+            "title": "Мы предлагаем качественную услугу по пересадке волос, которая поможет вам обрести уверенность в себе",
+            "description": "Пересадка волос",
+            "id": 1,
+            "to": "/Services/transplant",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/alexsandrit.jpg",
+            "title": "Александритовую лазерную эпиляцию в нашем центре проводят специалисты с медицинским образованием",
+            "description": "Александритовая лазерная эпиляция",
+            "id": 2,
+            "to": "/Services/alexandrit",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/kosmet.JPG",
+            "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "description": "Косметология",
+            "id": 3,
+            "to": "/Services/kosmetologia",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/mshX.JPG",
+            "title": "Профессиональный уход за кожей помогает достичь наилучших результатов",
+            "description": "Уход за кожей",
+            "id": 4,
+            "to": "/Services/mashkXnamq",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/mashXord.JPG",
+            "title": "Профессиональный уход за кожей помогает достичь наилучших результатов",
+            "description": "Консультация дерматолога",
+            "id": 5,
+            "to": "/Services/mashkXorhrdatvutyun",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/turboSalary.jpg",
+            "title": "Специальный водный режим увлажняет кожу, предотвращает сухость и дарит ощущение свежести",
+            "description": "Турбо Солярий",
+            "id": 6,
+            "to": "/Services/turboSalary",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/Mersumimg.jpg",
+            "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
+            "description": "Массаж",
+            "id": 7,
+            "to": "/Services/mersum",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/Mersumimg.jpg",
+            "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
+            "description": "Массаж",
+            "id": 8,
+            "to": "/Services/hakapigment",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/asexain.jpg",
+            "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
+            "description": "Массаж",
+            "id": 9,
+            "to": "/Services/asexain",
+            "buttonContent": "Более"
+        },
+        {
+            "url": "/Assets/Images/Mersumimg.jpg",
+            "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
+            "description": "Массаж",
+            "id": 10,
+            "to": "/Services/mazanot",
+            "buttonContent": "Более"
+        }
+    ]
+    },
+    "clinicInformation":  [
+        { "account": 10, "text": "Партнеры" },
+        { "account": 10, "text": "Персонал" },
+        { "account": 200, "text": "Клиенты" },
+        { "account": 500, "text": "Услуги" },
+        { "account": 7, "text": "Годы опыта" }
+    ]
+}
