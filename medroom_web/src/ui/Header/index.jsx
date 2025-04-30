@@ -49,11 +49,7 @@ function Header() {
     <div className={`${styles.container} ${isScrolled ? styles.scrolled : ""}`}>
         <img src='/Assets/Images/logo.png' alt="" />
 
-        <select className={styles.select} onChange={handleChangeLanguage} defaultValue={i18n.language}>
-          <option value="hy">Հայերեն</option>
-          <option value="en">English</option>
-          <option value="ru">Русский</option>
-        </select>
+        
       <div className={styles.menu}>
         <NavLink to="/" className={({isActive}) => (isActive ? styles.active : '')}>{t('home')}</NavLink>
         <NavLink to="/About"  className={({isActive}) => (isActive ? styles.active : '')}>{t('about')}</NavLink>
@@ -80,6 +76,11 @@ function Header() {
         <Link to="/Staff">{t('team')}</Link>
         <Link to="/Contact">{t('contact')}</Link>
       </div>
+      <select className={styles.select} onChange={handleChangeLanguage} defaultValue={i18n.language}>
+          <option value="hy">Հայերեն</option>
+          <option value="en">English</option>
+          <option value="ru">Русский</option>
+        </select>
     </div>
   );
 }

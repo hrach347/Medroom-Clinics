@@ -5,11 +5,8 @@ import LeftMore from '../../components/LeftMore';
 import { useTranslation } from 'react-i18next';
 
 const More = () => {
-
     const {slug} = useParams();
-
     const { t } = useTranslation('more');
-
     const MoreList = t('data', {returnObjects: true});
     const MoreData = MoreList[slug]
 
