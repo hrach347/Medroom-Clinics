@@ -55,7 +55,7 @@
         "title": "Профессиональные аспекты",
         "blogs": [
         {
-            "url": "/Assets/Images/poxpatvastum.jpg",
+            "url": "/Assets/Images/poxpatvastum.webp",
             "title": "Мы предлагаем качественную услугу по пересадке волос, которая поможет вам обрести уверенность в себе",
             "description": "Пересадка волос",
             "id": 1,
@@ -63,7 +63,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/alexsandrit.jpg",
+            "url": "/Assets/Images/alexsandrit.webp",
             "title": "Александритовую лазерную эпиляцию в нашем центре проводят специалисты с медицинским образованием",
             "description": "Александритовая лазерная эпиляция",
             "id": 2,
@@ -71,7 +71,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/kosmet.JPG",
+            "url": "/Assets/Images/kosmet.webp",
             "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "description": "Косметология",
             "id": 3,
@@ -79,7 +79,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/mshX.JPG",
+            "url": "/Assets/Images/mshX.webp",
             "title": "Профессиональный уход за кожей помогает достичь наилучших результатов",
             "description": "Уход за кожей",
             "id": 4,
@@ -87,7 +87,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/mashXord.JPG",
+            "url": "/Assets/Images/mashXord.webp",
             "title": "Профессиональный уход за кожей помогает достичь наилучших результатов",
             "description": "Консультация дерматолога",
             "id": 5,
@@ -95,7 +95,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/turboSalary.jpg",
+            "url": "/Assets/Images/turboSalary.webp",
             "title": "Специальный водный режим увлажняет кожу, предотвращает сухость и дарит ощущение свежести",
             "description": "Турбо Солярий",
             "id": 6,
@@ -103,7 +103,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/Mersumimg.jpg",
+            "url": "/Assets/Images/Mersumimg.webp",
             "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
             "description": "Массаж",
             "id": 7,
@@ -111,7 +111,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/Mersumimg.jpg",
+            "url": "/Assets/Images/Mersumimg.webp",
             "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
             "description": "Массаж",
             "id": 8,
@@ -119,7 +119,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/asexain.jpg",
+            "url": "/Assets/Images/asexain.webp",
             "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
             "description": "Массаж",
             "id": 9,
@@ -127,7 +127,7 @@
             "buttonContent": "Более"
         },
         {
-            "url": "/Assets/Images/Mersumimg.jpg",
+            "url": "/Assets/Images/Mersumimg.webp",
             "title": "Избавьтесь от боли, напряжения и усталости с помощью профессионального лечебного массажа",
             "description": "Массаж",
             "id": 10,

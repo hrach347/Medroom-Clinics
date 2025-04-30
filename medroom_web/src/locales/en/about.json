@@ -24,5 +24,26 @@
         "description3": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure.",
         "description4": "Flawless results — no burns, no discomfort.",
         "description5":  "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure."
+    },
+    "missionCard": {
+        "title": "Our Mission and Vision to Reveal Your Natural Beauty",
+        "subtitle": "With innovative approaches and personaliz",
+        "cards": [
+          {
+              "icon": "/Assets/icons/mission.svg",
+              "title": "Our Mission",
+              "description": "Reveal the natural beauty of each person with a professional, attentive, and loving approach — building trust and harmony."
+          },
+          {
+              "icon": "/Assets/icons/vision.svg",
+              "title": "Our Vision",
+              "description": "To become a trusted, modern, and innovative cosmetology clinic while staying loyal to our values and clients."
+          },
+          {
+              "icon": "/Assets/icons/value.svg",
+              "title": "Our Values",
+              "description": "Simplicity, high quality, innovation, honesty, sincere care, and dedication."
+          } 
+        ]
     }
 }
