@@ -14,7 +14,7 @@ function Home() {
   const { t } = useTranslation('home');
 
   const dataAlexandrit = t('dataAlexandrit', {returnObjects: true});
-  const dataPoxpatvastum = t('dataAlexandrit', {returnObjects: true});
+  const dataPoxpatvastum = t('dataPoxpatvastum', {returnObjects: true});
   const decorationCardData = t('decorationCard', {returnObjects: true});
   const whyUsData = t('whyUs', {returnObjects: true}); 
   const blogsData = t('blogsData', {returnObjects: true});

@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    height: 60vh;
+    border: 10px solid red;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container > div {
+    width: 30%;
+    position: absolute;
+    height: 40%;
+    bottom: -20%;
+    border: 10px solid blue;
+}
+
+.container > div:nth-child(1) {
+    left: 2%;
+}
+
+.container > div:nth-child(2) {
+    left: 34%;
+}
+
+.container > div:nth-child(2) {
+    left: 66%;
+}

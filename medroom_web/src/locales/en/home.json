@@ -55,7 +55,7 @@
         "title": "Professional Perspectives",
         "blogs": [
             {
-                "url": "/Assets/Images/poxpatvastum.jpg",
+                "url": "/Assets/Images/poxpatvastum.webp",
                 "title": "We offer high-quality hair transplantation services to help you regain your confidence",
                 "description": "Hair Transplantation",
                 "id": 1,
@@ -63,7 +63,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/alexsandrit.jpg",
+                "url": "/Assets/Images/alexsandrit.webp",
                 "title": "Alexandrite laser hair removal at our center is performed by medically trained specialists",
                 "description": "Alexandrite Laser Hair Removal",
                 "id": 2,
@@ -71,7 +71,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/kosmet.JPG",
+                "url": "/Assets/Images/kosmet.webp",
                 "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 "description": "Cosmetology",
                 "id": 3,
@@ -79,7 +79,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/mshX.JPG",
+                "url": "/Assets/Images/mshX.webp",
                 "title": "Professional skin care helps achieve the best results",
                 "description": "Skin Care",
                 "id": 4,
@@ -87,7 +87,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/mashXord.JPG",
+                "url": "/Assets/Images/mashXord.webp",
                 "title": "Professional skin care helps achieve the best results",
                 "description": "Dermatology Consultation",
                 "id": 5,
@@ -95,7 +95,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/turboSalary.jpg",
+                "url": "/Assets/Images/turboSalary.webp",
                 "title": "A special water regime hydrates the skin, prevents dryness, and provides a feeling of freshness",
                 "description": "Turbo Solarium",
                 "id": 6,
@@ -103,7 +103,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/Mersumimg.jpg",
+                "url": "/Assets/Images/Mersumimg.webp",
                 "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
                 "description": "Massage",
                 "id": 7,
@@ -111,7 +111,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/Mersumimg.jpg",
+                "url": "/Assets/Images/Mersumimg.webp",
                 "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
                 "description": "Massage",
                 "id": 8,
@@ -119,7 +119,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/asexain.jpg",
+                "url": "/Assets/Images/asexain.webp",
                 "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
                 "description": "Massage",
                 "id": 9,
@@ -127,7 +127,7 @@
                 "buttonContent": "More"
             },
             {
-                "url": "/Assets/Images/Mersumimg.jpg",
+                "url": "/Assets/Images/Mersumimg.webp",
                 "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
                 "description": "Massage",
                 "id": 10,
