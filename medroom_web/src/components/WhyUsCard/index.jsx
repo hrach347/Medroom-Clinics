@@ -1,29 +1,56 @@
 import styles from './style.module.css';
-import doc from '../../Assets/Images/nune.jpg'
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
+import { containerVariant, textVariant, ImageVariant } from './animate';
+import WhyBoxes from '../WhyBoxes';
 
-const WhyChooseUs = () => {
+const WhyChooseUs = ({ data }) => {
+
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0.5
+    })
+
 
     return (
-        <div className={styles.container}>
-            <div className={styles.leftSide}>
-                <h3 className={styles.whyUs}>ԻՆՉՈՒ ԸՆՏՐԵԼ ՄԵԶ</h3>
-                <h2 className={styles.title}>Գերազանցություն արդյունքներ որոնց կարողեք վստահել</h2>
-                <p className={styles.description}>
-                    Մեր կենտրոնում առաջարկում ենք բարձրորակ ծառայություններ՝ 
-                    ժամանակակից սարքավորումներով և առաջադեմ տեխնոլոգիաներով: 
-                    Մեր փորձառու մասնագետները նվիրված են ձեր առողջությանը՝ տրամադրելով 
-                    անհատական բուժում և հոգատար սպասարկում:
-                </p>
-            </div> 
+        <div 
+            className={styles.container}
+            style={{backgroundImage: `url(/Assets/Images/why-choose-bg.svg)`}}
+            ref={ref}
+        >
+            <motion.div 
+                className={styles.leftSide}
+                initial='hidden'
+                animate={inView ? 'visible' : 'hiden'}
+                variants={containerVariant}
+            >
+                <motion.h3 variants={textVariant} className={styles.whyUs}>{data.whyUs}</motion.h3>
+                <motion.h2 variants={textVariant} className={styles.title}>{data.title}</motion.h2>
+                <motion.p variants={textVariant} className={styles.description}>{data.description}</motion.p>
+            </motion.div> 
 
-            <div 
-                className={styles.middle} 
-                // style={{background: `url(${doc})`}}
-            />
-                
-            <div className={styles.rightSide}>
-
+            <div className={styles.middle} >
+                <motion.img 
+                    src='/Assets/Images/smileDoc.png'
+                    alt='' 
+                    initial='hidden'
+                    animate={inView ? 'visible' : 'hidden'}
+                    variants={ImageVariant}
+                />
             </div>
+                
+            <motion.div 
+                className={styles.rightSide}
+                initial='hidden'
+                animate={inView ? 'visible' : 'hiden'}
+                variants={containerVariant}
+            >
+                {
+                    data.boxes.map((box, index) => {
+                        return <WhyBoxes key={index} data={box} animVariant={textVariant} />
+                    })
+                }
+            </motion.div>
         </div>
     );
 };

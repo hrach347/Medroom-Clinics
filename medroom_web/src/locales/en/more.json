@@ -1,0 +1,241 @@
+{
+    "data": {
+        "alexandrit": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/alexandritVideo.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Alexandrite",
+                  "description": "Alexandrite laser hair removal offers a long-term, safe, and effective method of hair removal. Regular procedures allow for the reduction and even complete elimination of unwanted hair in various areas of the body. Visitors can enjoy smooth and beautiful skin free of unwanted hair."
+              },      
+              {   
+                  "title": "Alexandrite hair removal has many, many advantages",
+                  "description": "It is recognized for its high efficiency, allowing for long-term hair removal results. Thanks to the laser's high power, the procedure can be performed quickly, which is especially important for treating large areas. The procedure is performed without a contact gel. The Alexandrite laser has an integrated cooling system that protects the skin from overheating and damage. Suitable for various skin and hair types. Requires a 40-60 day interval between each visit. No prior shaving is needed before the procedure."
+              },      
+              {   
+                  "title": "Equipment",
+                  "description": "Our center performs hair removal using the ultra-powerful Candela GentleLase Pro-U device, which is considered the market leader in Alexandrite lasers. This innovative technology ensures one of the most effective and safe methods of hair removal, guaranteeing excellent results and a comfortable procedure."
+              },      
+              {   
+                  "title": "Consultation",
+                  "description": "At the beginning of the consultation, you will be introduced to the clinic and the hair removal specialist. You will fill out a questionnaire that includes your personal data, health status, skin and hair type. The specialist will thoroughly analyze the condition of your skin and hair. They will discuss the expected results based on your skin and hair type. This also includes an estimate of the number of procedures required for hair removal."
+              }
+          ]
+        },
+        "kosmetalogia": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/ksmVd.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Injection Cosmetology",
+                  "description": "Injection cosmetology is currently very relevant as it offers non-surgical methods for rejuvenation, skin restoration, and beauty maintenance. These methods are accessible, the results are quick and visible, and the recovery period is short, which generates great interest among visitors. This field includes a range of procedures that can improve the appearance of the skin, restore youth and beauty without the need for surgical intervention."
+              },  
+              {   
+                  "title": "The goal of Injection Cosmetology",
+                  "description": "Cosmetology is a multifaceted and evolving science aimed at improving people's external appearance and self-confidence. It includes various methods and technologies used for skin care, aesthetic preservation, and enhancement. The field of cosmetology consists of a range of services that can be tailored to each individual's needs and desires. The most common and in-demand cosmetic services include facial care procedures such as hydration, cleansing, peeling, and rejuvenation. These services help reduce signs of skin aging, improve skin tone, and stimulate collagen production, which helps maintain skin elasticity. Cosmetology also includes necessary interventions for treating skin imperfections, pigmentation, acne, and other skin issues."
+              },  
+              {   
+                  "title": "Preparation Stage",
+                  "description": "Our center offers only the most advanced technologies and methods, combining them with a high level of professionalism. Our experienced specialists care for each client, providing a personalized approach and offering services that best meet their needs. The center's atmosphere is designed so that visitors feel comfortable and at ease, enjoying the entire procedure process. We understand how important external appearance is for everyone, and that is why our team does everything to ensure the highest results."
+              },  
+              {   
+                  "title": "Visit Us Because",
+                  "description": "If you want to improve your skin's condition and feel more confident, visit our center and discover what our field can offer you. Your beauty and health deserve the best care, and we are here to help you in this regard."
+              }
+          ]
+        },
+        "turboSalary": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/solaryVideo.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Tanning Salon",
+                  "description": "The turbo tanning salon is the best substitute for bright sunlight, allowing you to achieve a natural and healthy tan at any time of the year. This advanced technology ensures a quick and even tanning result with minimal impact on the skin. Our turbo tanning service is suitable for various skin types and offers a personalized approach for each client. Thanks to special filters and modern lamps, you can enjoy a beautiful and long-lasting tan without harmful effects. Note that our tanning salon features a special water system, making the tanning process even more pleasant."
+              },  
+              {   
+                  "title": "How many visits are needed for a beautiful tan?",
+                  "description": "Usually, 10 tanning sessions are enough to guarantee a beautiful tan. After the first session, you need to wait at least 48 hours before the next visit. This allows the tan to develop consistently and correctly, and the cells to develop safely. It also gives your skin time to rest and repair damaged cells. Avoid excessive sessions to protect your skin from burns and brown spots. For your safety and health, it is recommended to use special disposable accessories inside the tanning booth, which we provide: a cap, protective stickers for areolas and moles, flip-flops, and lens cleaning accessories."
+              },  
+              {   
+                  "title": "Tips on how to prepare for your first tanning session and achieve flawless results.",
+                  "description": "• Perform a full-body peeling or scrub one day before the process. This will remove the outer dead layer of skin, making it smooth and more receptive to tanning. It will also help the tan last longer. • Avoid perfumes and skin oils • Drink plenty of water immediately after tanning • Apply after-tan lotions to make the skin smooth, firm, and elastic. Regular care will keep the tan longer."
+              }
+          ]
+        },
+        "mersum": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/video1.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/octor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Massage",
+                  "description": "We offer high-quality massage services, including both therapeutic and spa massages, tailored to each client's individual needs and preferences."
+              },  
+              {   
+                  "title": "Therapeutic Massage",
+                  "description": "Therapeutic massage is one of our clinic's main services, designed to restore the body's physical health and alleviate pain. This form of massage is applied by specialists with appropriate education and experience to solve various physical problems, including muscle tension, joint pain, injuries, and movement limitations. During the therapeutic massage process, special techniques and methods are applied to improve blood circulation, relax muscles, and restore the body. Our specialists create an individual approach for each client, taking into account their health specifics."
+              },  
+              {   
+                  "title": "Spa Massage",
+                  "description": "Our spa massage services are aimed not only at maintaining physical health but also at achieving psychological relaxation. Spa massage offers relief from stress, relaxation, and well-being. It helps restore the skin, improve tone, and enhance overall quality of life. Spa massages are designed to improve the body's energy system, restore mental balance, and enhance the body's vital forces. Our specialists pay great attention to every detail of the massage process, ensuring a comfortable and pleasant environment where you can fully relax and restore your energy."
+              }
+          ]
+        },
+        "permonent": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/permonentVideo.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Hair Transplantation",
+                  "description": "We offer high-quality hair transplantation services that will help you regain your confidence. Our specialists use modern methods and the latest technologies to ensure reliable and long-lasting results. Hair transplantation has become one of the most popular and effective methods in aesthetic medicine in recent years. Hair loss due to various illnesses, stress, genetics, or age can greatly affect a person's appearance, often leading to personal dissatisfaction and psychological issues. Hair transplantation aims to solve these problems and restore healthy, thick, and beautiful hair."
+              },  
+              {   
+                  "title": "Hair Transplantation Process",
+                  "description": "The main goal of hair transplantation is to take hair from the donor area (with healthy roots) and transplant it to areas where hair has thinned or completely disappeared. This process is carried out using several methods; we perform FUE, FUT, and BHT methods."
+              },  
+              {   
+                  "title": "Preparation Stage",
+                  "description": "For hair transplantation preparation, it is important to thoroughly examine the scalp and determine which method is more suitable. The examination includes assessing the condition of the hair growth area, skin health, and the patient's overall health. Preliminary tests may be required, such as blood tests, allergy checks, etc."
+              }
+          ]
+        },
+        "mashkXorhrdatvutyun": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/mshXord.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Cosmetology",
+                  "description": "Cosmetology is a multifaceted and evolving science aimed at improving people's external appearance and self-confidence. It includes various methods and technologies used for skin care, aesthetic preservation, and enhancement. The field of cosmetology consists of a range of services that can be tailored to each individual's needs and desires. The most common and in-demand cosmetic services include facial care procedures such as hydration, cleansing, peeling, and rejuvenation. These services help reduce signs of skin aging, improve skin tone, and stimulate collagen production, which helps maintain skin elasticity. Cosmetology also includes necessary interventions for treating skin imperfections, pigmentation, acne, and other skin issues."
+              },  
+              {   
+                  "title": "Technologies and Methods",
+                  "description": "Our center offers only the most advanced technologies and methods, combining them with a high level of professionalism. Our experienced specialists care for each client, providing a personalized approach and offering services that best meet their needs. The center's atmosphere is designed so that visitors feel comfortable and at ease, enjoying the entire procedure process. We understand how important external appearance is for everyone, and that is why our team does everything to ensure the highest results."
+              },  
+              {   
+                  "title": "Skin Consultation",
+                  "description": "If you want to improve your skin's condition and feel more confident, visit our center and discover what our field can offer you. Your beauty and health deserve the best care, and we are here to help you in this regard. We all know that perfect skin is not accidental but the result of proper care. Our specialists choose individual solutions that restore skin health, providing radiance and youth. Deep hydration, gentle and effective cleansing techniques, overall tone and elasticity restoration."
+              },  
+              {   
+                  "title": "Discover your skin's perfect version with us.",
+                  "description": "✨Professional skin care helps achieve the best results because specialists can correctly assess your skin's condition and choose appropriate treatments and products. Home care is important, but the skin periodically needs a professional approach. Deep cleansing, restorative procedures, and personalized skin care ensure not only beautiful but also healthy skin."
+              }
+          ]
+        },
+        "mashkXnamq": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/mashkXnamq.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Cosmetology",
+                  "description": "Cosmetology is a multifaceted and evolving science aimed at improving people's external appearance and self-confidence. It includes various methods and technologies used for skin care, aesthetic preservation, and enhancement. The field of cosmetology consists of a range of services that can be tailored to each individual's needs and desires. The most common and in-demand cosmetic services include facial care procedures such as hydration, cleansing, peeling, and rejuvenation. These services help reduce signs of skin aging, improve skin tone, and stimulate collagen production, which helps maintain skin elasticity. Cosmetology also includes necessary interventions for treating skin imperfections, pigmentation, acne, and other skin issues."
+              },  
+              {   
+                  "title": "Technologies",
+                  "description": "Our center offers only the most advanced technologies and methods, combining them with a high level of professionalism. Our experienced specialists care for each client, providing a personalized approach and offering services that best meet their needs. The center's atmosphere is designed so that visitors feel comfortable and at ease, enjoying the entire procedure process. We understand how important external appearance is for everyone, and that is why our team does everything to ensure the highest results."
+              },  
+              {   
+                  "title": "Skin Care",
+                  "description": "If you want to improve your skin's condition and feel more confident, visit our center and discover what our field can offer you. Your beauty and health deserve the best care, and we are here to help you in this regard."
+              }
+          ]
+        },
+        "transplant": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/video1.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Hair Transplantation",
+                  "description": "We offer high-quality hair transplantation services that will help you regain your confidence. Our specialists use modern methods and the latest technologies to ensure reliable and long-lasting results. Hair transplantation has become one of the most popular and effective methods in aesthetic medicine in recent years. Hair loss due to various illnesses, stress, genetics, or age can greatly affect a person's appearance, often leading to personal dissatisfaction and psychological issues. Hair transplantation aims to solve these problems and restore healthy, thick, and beautiful hair."
+              },  
+              {   
+                  "title": "Hair Transplantation Process",
+                  "description": "The main goal of hair transplantation is to take hair from the donor area (with healthy roots) and transplant it to areas where hair has thinned or completely disappeared. This process is carried out using several methods; we perform FUE, FUT, and BHT methods."
+              },  
+              {   
+                  "title": "Preparation Stage",
+                  "description": "For hair transplantation preparation, it is important to thoroughly examine the scalp and determine which method is more suitable. The examination includes assessing the condition of the hair growth area, skin health, and the patient's overall health. Preliminary tests may be required, such as blood tests, allergy checks, etc."
+              }
+          ]
+        },
+        "mazanot": {
+          "infoImage": "/Assets/Images/doctor2.jpg",
+          "infoVideo": "/Assets/Videos/video1.mp4",
+      
+          "infoStaff": {
+              "title": "Who do you trust your treatment to?",
+              "title2": "Dr. Vahan Melikov",
+              "description": "Dr. Vahan Melikov is a highly qualified specialist in the field of hair transplant medicine with over five years of experience. With more than 1,000 satisfied clients, he has earned a reputation for excellence and precision. Dr. Melikov's expertise and dedication to delivering exceptional results make him a trusted name in hair restoration solutions.",
+              "infoImage": "/Assets/Images/doctor1.jpg"
+          },
+          "lists": [
+              {
+                  "title": "Massage",
+                  "description": "We offer high-quality massage services, including both therapeutic and spa massages, tailored to each client's individual needs and preferences."
+              },  
+              {   
+                  "title": "Therapeutic Massage",
+                  "description": "Therapeutic massage is one of our clinic's main services, designed to restore the body's physical health and alleviate pain. This form of massage is applied by specialists with appropriate education and experience to solve various physical problems, including muscle tension, joint pain, injuries, and movement limitations. During the therapeutic massage process, special techniques and methods are applied to improve blood circulation, relax muscles, and restore the body. Our specialists create an individual approach for each client, taking into account their health specifics."
+              },  
+              {   
+                  "title": "Spa Massage",
+                  "description": "Our spa massage services are aimed not only at maintaining physical health but also at achieving psychological relaxation. Spa massage offers relief from stress, relaxation, and well-being. It helps restore the skin, improve tone, and enhance overall quality of life. Spa massages are designed to improve the body's energy system, restore mental balance, and enhance the body's vital forces. Our specialists pay great attention to every detail of the massage process, ensuring a comfortable and pleasant environment where you can fully relax and restore your energy."
+              }
+          ]
+        }
+      }
+}

@@ -1,0 +1,123 @@
+{
+    "pageTitle": "Услуги",
+    "cardsData": [
+        {
+            "id": 1,
+            "title": "Трансплантация волос",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "transplant",
+            "image": "/Assets/Images/poxpatvastum.webp"
+        },
+        {
+            "id": 2,
+            "title": "Перманентный макияж",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "permonent",
+            "image": "/Assets/Images/permonent.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Лазерная эпиляция александритовым лазером",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "alexandrit",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {
+            "id": 4,
+            "title": "Инъекционная косметология",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "kosmetalogia",
+            "image": "/Assets/Images/kosmetologia.webp"
+        },
+        {
+            "id": 5,
+            "title": "Консультация дерматолога",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mashkXorhrdatvutyun",
+            "image": "/Assets/Images/mshX.webp"
+        },
+        {
+            "id": 6,
+            "title": "Уход за кожей",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mashkXnamq",
+            "image": "/Assets/Images/mashk3.webp"
+        },
+        {
+            "id": 7,
+            "title": "Турбо солярий",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "turboSalary",
+            "image": "/Assets/Images/turboSalary.webp"
+        },
+        {
+            "id": 8,
+            "title": "Лазерная терапия капиллярной сетки",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mazanot",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {
+            "id": 9,
+            "title": "Лазерная терапия против пигментации",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "hakapigment",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {
+            "id": 10,
+            "title": "Удаление волос нитью",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "asexain",
+            "image": "/Assets/Images/asexain.webp"
+        },
+        {
+            "id": 11,
+            "title": "Массаж",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mersum",
+            "image": "/Assets/Images/Mersumimg.webp"
+        }
+    ],
+    "productionData": {
+        "video": "/Assets/Videos/Procedure.mp4",
+        "proc": "◉ Процесс",
+        "title": "Профессиональный дерматологический уход для здоровой и сияющей кожи",
+        "descriptions": [
+            {"description": "Спектр услуг предназначен для поддержания вашего здоровья на каждом этапе."},
+            {"description": "Спектр услуг предназначен для поддержания вашего здоровья на каждом этапе."},
+            {"description": "Спектр услуг предназначен для поддержания вашего здоровья на каждом этапе."}
+        ],
+        "lists": [
+            {"name": "Эксперты-дерматологи"},
+            {"name": "Эксперты-дерматологи"},
+            {"name": "Эксперты-дерматологи"},
+            {"name": "Эксперты-дерматологи"},
+            {"name": "Эксперты-дерматологи"},
+            {"name": "Эксперты-дерматологи"}
+        ]
+    },
+    "whyUsData": {
+        "whyUs": "ПОЧЕМУ ВЫБИРАЮТ НАС",
+        "title": "Превосходные результаты, которым можно доверять",
+        "description": "Наш центр предлагает высококачественные услуги с современным оборудованием и передовыми технологиями. Наши опытные специалисты посвящены вашему здоровью, обеспечивая индивидуальное лечение и внимательный уход.",
+        "boxes": [
+            {
+                "name": "Непревзойденные результаты с использованием передовых технологий",
+                "description": "Мы работаем на новейшем оборудовании, обеспечивая высочайшее качество ухода за вашей кожей и красотой.",
+                "icon": "/Assets/icons/cpu.svg"
+            },  
+            {   
+                "name": "Безопасность и доверие в каждой процедуре",
+                "description": "Наша клиника действует в соответствии с международными стандартами безопасности, чтобы вы чувствовали себя уверенно на каждом этапе.",
+                "icon": "/Assets/icons/shield-check.svg"
+            },  
+            {   
+                "name": "Высококвалифицированная профессиональная команда",
+                "description": "У нас работают сертифицированные врачи с многолетним опытом, которые искренне любят своё дело.",
+                "icon": "/Assets/icons/certificate.svg"
+            }
+        ]
+          
+    }
+}

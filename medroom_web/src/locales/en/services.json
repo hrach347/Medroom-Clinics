@@ -1,0 +1,122 @@
+{
+    "pageTitle": "Services",
+    "cardsData": [
+        {
+            "id": 1,
+            "title": "Hair Transplantation",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "transplant",
+            "image": "/Assets/Images/poxpatvastum.webp"
+        },
+        {
+            "id": 2,
+            "title": "Permanent Makeup",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "permonent",
+            "image": "/Assets/Images/permonent.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Alexandrite Laser Hair Removal",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "alexandrit",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {
+            "id": 4,
+            "title": "Injectable Cosmetology",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "kosmetalogia",
+            "image": "/Assets/Images/kosmetologia.webp"
+        },
+        {
+            "id": 5,
+            "title": "Dermatology Consultation",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mashkXorhrdatvutyun",
+            "image": "/Assets/Images/mshX.webp"
+        },
+        {
+            "id": 6,
+            "title": "Skin Care",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mashkXnamq",
+            "image": "/Assets/Images/mashk3.webp"
+        },
+        {
+            "id": 7,
+            "title": "Turbo Solarium",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "turboSalary",
+            "image": "/Assets/Images/turboSalary.webp"
+        },
+        {
+            "id": 8,
+            "title": "Laser Capillary Therapy",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mazanot",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {
+            "id": 9,
+            "title": "Anti-Pigmentation Laser Therapy",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "hakapigment",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {
+            "id": 10,
+            "title": "Thread Hair Removal",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "asexain",
+            "image": "/Assets/Images/asexain.webp"
+        },
+        {
+            "id": 11,
+            "title": "Massage",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mersum",
+            "image": "/Assets/Images/Mersumimg.webp"
+        }
+    ],
+    "productionData": {
+        "video": "/Assets/Videos/Procedure.mp4",
+        "proc": "◉ Process",
+        "title": "Expert dermatology care for healthy, radiant skin",
+        "descriptions": [
+            {"description": "Range of services is designed to support your health at every stage."},
+            {"description": "Range of services is designed to support your health at every stage."},
+            {"description": "Range of services is designed to support your health at every stage."}
+        ],
+        "lists": [
+            {"name": "Expert Dermatologists"},
+            {"name": "Expert Dermatologists"},
+            {"name": "Expert Dermatologists"},
+            {"name": "Expert Dermatologists"},
+            {"name": "Expert Dermatologists"},
+            {"name": "Expert Dermatologists"}
+        ]
+    },
+    "whyUsData": {
+        "whyUs": "WHY CHOOSE US",
+        "title": "Excellence in results you can trust",
+        "description": "Our center offers high-quality services with modern equipment and advanced technologies. Our experienced specialists are dedicated to your health, providing personalized treatment and attentive care.",
+        "boxes": [
+            {
+              "name": "Unmatched Results with Cutting-Edge Technologies",
+              "description": "We use the latest equipment to deliver the highest quality care for your skin and beauty needs.",
+              "icon": "/Assets/icons/cpu.svg"
+            },
+            {
+              "name": "Safety and Trust in Every Procedure",
+              "description": "Our clinic operates under international safety standards, ensuring you feel secure at every step.",
+              "icon": "/Assets/icons/shield-check.svg"
+            },
+            {
+              "name": "Highly Qualified Professional Team",
+              "description": "Our team consists of certified doctors with years of experience who are passionate about their work.",
+              "icon": "/Assets/icons/certificate.svg"
+            }
+        ]
+    }
+}

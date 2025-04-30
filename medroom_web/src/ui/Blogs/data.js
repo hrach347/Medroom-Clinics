@@ -1,11 +1,11 @@
-import alexandrit from "../../Assets/Images/alexsandrit.jpg";
-import transplant from "../../Assets/Images/poxpatvastum.jpg";
-import kosmetologia from "../../Assets/Images/kosmet.JPG";
-import mashkXnamq from "../../Assets/Images/mshX.JPG";
-import mashkXord from "../../Assets/Images/mashXord.JPG"
-import mersum from "../../Assets/Images/Mersumimg.jpg";
-import turboSalary from "../../Assets/Images/turboSalary.jpg";
-import asexain from "../../Assets/Images/asexain.jpg";
+// import alexandrit from "../../Assets/Images/alexsandrit.jpg";
+// import transplant from "../../Assets/Images/poxpatvastum.jpg";
+// import kosmetologia from "../../Assets/Images/kosmet.JPG";
+// import mashkXnamq from "../../Assets/Images/mshX.JPG";
+// import mashkXord from "../../Assets/Images/mashXord.JPG"
+// import mersum from "../../Assets/Images/Mersumimg.jpg";
+// import turboSalary from "../../Assets/Images/turboSalary.jpg";
+// import asexain from "../../Assets/Images/asexain.jpg";
 
 
 const data = [

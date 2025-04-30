@@ -1,0 +1,118 @@
+{
+    "pageTitle": "Ծառայություններ",
+    "cardsData": [
+        {   
+            "id": 1,
+            "title" : "Մազերի փոխպատվաստում",
+            "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+            "to": "transplant",
+            "image": "/Assets/Images/poxpatvastum.webp"
+        },
+        {   
+            "id": 2,
+            "title" : "Պերմանենտ",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "permonent",
+            "image": "/Assets/Images/permonent.jpg"
+
+        },{   
+            "id": 3,
+            "title" : "Ալեքսանդրտային լազերային մազահեռացում",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "alexandrit",
+            "image": "/Assets/Images/alexsandrit.webp"
+
+        },{   
+            "id": 4,
+            "title" : "Ներարկումային կոսմետոլոգիա",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "kosmetalogia",
+            "image": "/Assets/Images/kosmetologia.webp"
+
+        },{   
+            "id": 5,
+            "title" : "Մաշկաբանության խորհրդատվություն",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mashkXorhrdatvutyun",
+            "image": "/Assets/Images/mshX.webp"
+        },{   
+            "id": 6,
+            "title" : "Մաշկի խնամք",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to": "mashkXnamq",
+            "image": "/Assets/Images/mashk3.webp"
+        },{   
+            "id": 7,
+            "title" : "Տուրբո սոլյարի",
+            "description": "lorem lorem lorem lorem lorem lorem lorem",
+            "to" : "turboSalary",
+            "image": "/Assets/Images/turboSalary.webp"
+        },{   
+            "id": 8,
+            "title" : "Մազանոթային ցանցի լազերային թերապիա",
+            "description": "lorem lorem lorem lorem lorem lorem lorem ",
+            "to": "mazanot",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },
+        {   
+            "id": 9,
+            "title" : "Հակապիգմենտային լազերային թերապիա",
+            "description": "lorem lorem lorem lorem lorem lorem lorem ",
+            "to": "hakapigment",
+            "image": "/Assets/Images/alexsandrit.webp"
+        },{   
+            "id": 10,
+            "title" : "Ասեղային մազահեռացում ",
+            "description": "lorem lorem lorem lorem lorem lorem lorem ",
+            "to": "asexain",
+            "image": "/Assets/Images/asexain.webp"
+        },{   
+            "id": 11,
+            "title" : "Մերսում",
+            "description": "lorem lorem lorem lorem lorem lorem lorem ",
+            "to": "mersum",
+            "image": "/Assets/Images/Mersumimg.webp"
+        }
+    ],
+    "productionData": {
+        "video": "/Assets/Videos/Procedure.mp4",
+        "proc": "◉ Գործընթաց",
+        "title": "Մասնագիտացված մաշկաբանական խնամք՝ առողջ և փայլուն մաշկի համար",
+        "descriptions": [
+            {"description": "Ծառայությունների շրջանակը նախատեսված է ձեր առողջությունն ամեն փուլում աջակցելու համար։"},
+            {"description": "Ծառայությունների շրջանակը նախատեսված է ձեր առողջությունն ամեն փուլում աջակցելու համար։"},
+            {"description": "Ծառայությունների շրջանակը նախատեսված է ձեր առողջությունն ամեն փուլում աջակցելու համար։"}
+        ],
+        "lists": [
+            {"name": "Փորձառու մաշկաբաններ"},
+            {"name": "Փորձառու մաշկաբաններ"},
+            {"name": "Փորձառու մաշկաբաններ"},
+            {"name": "Փորձառու մաշկաբաններ"},
+            {"name": "Փորձառու մաշկաբաններ"},
+            {"name": "Փորձառու մաշկաբաններ"}
+        ]
+    },
+    "whyUsData": {
+        "whyUs": "ԻՆՉՈՒ ԸՆՏՐԵԼ ՄԵԶ",
+        "title": "Գերազանցություն արդյունքներ որոնց կարողեք վստահել",
+        "description": "Մեր կենտրոնում առաջարկում ենք բարձրորակ ծառայություններ՝ ժամանակակից սարքավորումներով և առաջադեմ տեխնոլոգիաներով: Մեր փորձառու մասնագետները նվիրված են ձեր առողջությանը՝ տրամադրելով անհատական բուժում և հոգատար սպասարկում:",
+        "boxes": [
+            {
+                "name": "Անկրկնելի արդյունքներ ժամանակակից տեխնոլոգիաներով",
+                "description": "Մենք աշխատում ենք նորագույն սարքավորումներով՝ ապահովելով ամենաբարձր որակը ձեր մաշկի և գեղեցկության համար։",
+                "icon": "/Assets/icons/cpu.svg"
+            },
+            {
+                "name": "Անվտանգություն և վստահություն յուրաքանչյուր պրոցեդուրայում",
+                "description": "Մեր կլինիկան գործում է միջազգային անվտանգության ստանդարտներով, որպեսզի դուք վստահ զգաք ամեն քայլափոխին։",
+                "icon": "/Assets/icons/shield-check.svg"
+            },
+            {
+                "name": "Մասնագիտական բարձրակարգ թիմ",
+                "description": "Մեզ մոտ աշխատում են սերտիֆիկացված և երկարամյա փորձ ունեցող բժիշկներ, ովքեր սիրում են իրենց գործը։",
+                "icon": "/Assets/icons/certificate.svg"
+            }
+        ]
+    }
+}   
+

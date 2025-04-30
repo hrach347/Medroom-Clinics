@@ -2,13 +2,12 @@ import BlogCarousel from "../../components/Carusel";
 import Title from "../../components/Title"
 
 import styles from "./style.module.css";
-import data  from "./data";
 
-const Blogs = () => {
+const Blogs = ({ data }) => {
   return (
     <div className={styles.container}>
-      <Title>Մասնագիտական անկյուններ</Title>
-      <BlogCarousel blogs={data} />
+      <Title>{data.title}</Title>
+      <BlogCarousel blogs={data.blogs} />
     </div>
   );
 };

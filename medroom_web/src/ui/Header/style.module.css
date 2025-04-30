@@ -18,6 +18,7 @@
 .container.scrolled:hover {
   backdrop-filter: blur(20px);
 }
+
 .container > img {
   height: 85%;
 }

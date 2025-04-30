@@ -14,13 +14,17 @@ function InfoAboutClinic({ end, text, duration = 2 }) {
       <h3>
         {
           inView ? 
-          <CountUp 
+          <div className={styles.numberPlus}>
+             <CountUp 
             start={0} 
             end={end} 
             duration={duration}
             useEasing
             separator=","
-            /> : 
+            />
+            <p>+</p>
+          </div>
+          : 
           0
         }
       </h3>

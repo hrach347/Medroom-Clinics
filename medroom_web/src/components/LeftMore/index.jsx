@@ -9,7 +9,8 @@ const LeftMore = ({ data }) => {
     const {ref, inView} = useInView({
         triggerOnce: true,
         threshold: 0.5
-    })
+    });
+
 
     const pendingData = data.lists.map((list, index) => (
         <motion.li

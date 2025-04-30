@@ -1,0 +1,14 @@
+{
+    "titles": {
+        "contacts": "Наши контакты",
+        "map": "Карта сайта",
+        "social": "Мы в социальных сетях"
+    },
+    "pages": [
+        { "name": "Главная", "link": "/" },
+        { "name": "О нас", "link": "/About" },
+        { "name": "Контакты", "link": "/Contact" },
+        { "name": "Наша команда", "link": "/Staff" },
+        { "name": "Услуги", "link": "/Services" }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "pageTitle": "Наша команда",
+    "data": [
+        {
+            "name": "Вахан Меликович",
+            "profession": "Врач-эстетист, Челюстно-лицевой хирург",
+            "image": "/Assets/Images/vahan.jpg"
+        },
+        {
+            "name": "Нуне Давтян",
+            "profession": "Врач-косметолог, эстетист",
+            "image": "/Assets/Images/nune.jpg"
+        },
+        {
+            "name": "Мариам Есаян",
+            "profession": "Специалист по лазерной эпиляции, Косметолог",
+            "image": "/Assets/Images/mariam.jpg"
+        },
+        {
+            "name": "Ирина Маркосян",
+            "profession": "Специалист по лазерной эпиляции",
+            "image": "/Assets/Images/irina.jpg"
+        },
+        {
+            "name": "Мари Мурадян",
+            "profession": "Специалист по лазерной эпиляции",
+            "image": "/Assets/Images/mariMuradyan.jpg"
+        },
+        {
+            "name": "Нарек Авдалян",
+            "profession": "Специалист по лечебному и классическому массажу",
+            "image": "/Assets/Images/avdalyan.jpg"
+        },
+        {
+            "name": "Армине Абраамян",
+            "profession": "Специалист по лазерной эпиляции",
+            "image": "/Assets/Images/armine.jpg"
+        },
+        {
+            "name": "Лиана Киракосян",
+            "profession": "Специалист по лазерной эпиляции",
+            "image": "/Assets/Images/liana.jpg"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 .container {
   background-color: whitesmoke;
   width: 100%;
+  padding-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.topPictureContainer {
-  width: 100%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  padding: 30vh 0 0 5%;
+.description {
+  font-size: 28px;
+  margin-top: 40px;
 }
 
 .mainContainer {
@@ -18,8 +18,9 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  gap: 150px;
-  padding: 150px 0;
+  gap: 70px;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .registerContainer {
@@ -42,58 +43,74 @@
   background-color: white;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   border-radius: 10px;
   padding: 6% 5%;
   gap: 30px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348);
   transition: transform 0.5s linear;
+  grid-template-areas: 
+  'name email'
+  'message message'
+  'button button';
 }
 
-.contactContainer>div:nth-child(5) {
-  grid-area: 3 / 1 / 3 / 3;
-}
-
-.contactContainer>div:nth-child(5)>input {
-  height: 20vh;
-}
-
-.inpContainer {
-  width: 100%;
-  font-size: 13px;
+.forEmail, .forMessage, .forName {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  position: relative;
+  align-items: start;
+  gap: 10px;
 }
 
-.inpContainer>input {
-  font-size: 14px;
-  background-color: #F7F7F7;
-  height: 50px;
+.forEmail input, .forName input {
+  width: 100%;
+  height: 35px;
   border-radius: 10px;
-  border: 3px solid #E7E7E7;
-  padding: 10px;
-  transition: 0.4s;
-  resize: none;
-}
-
-.inpContainer>label {
-  margin-left: 4px;
-}
-
-.inpContainer>input:focus {
+  border: none;
+  background-color: lightgray;
+  padding-left: 10px;
+  font-size: 16px;
   outline: none;
-  border-color: #146965;
 }
 
-.inpContainer>input:user-invalid {
-  color: brown;
-  border-color: brown;
+input::placeholder {
+  color: black;
 }
 
-.inpContainer>input:user-valid {
-  border-color: #146965;
+.forMessage {
+  grid-area: message;
+  width: 100%;
+}
+
+.forMessage textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.forMessage textarea::placeholder {
+  color: black;
+}
+
+.forName {
+  grid-area: name;
+}
+
+.forEmail {
+  grid-area: email;
+}
+
+.forBtn {
+  grid-area: button;
+}
+
+.forBtn button {
+  width: 100%;
+  height: 40px;
 }
 
 .mapContainer {
@@ -130,40 +147,15 @@
   .mainContainer {
     width: 97%;
   }
-
-  .registerContainer {
-    width: 90%;
-  }
 }
 
 @media screen and (max-width: 590px) {
-  .topPictureContainer {
-    background-image: none;
-  }
-
-  .topPictureContainer > h1 {
-    color: red;
-  }
-
   .contactContainer {
-    grid-template-columns: 100%;
-    padding: 14% 5%;
-  }
-
-  .contactContainer>div:nth-child(5){
-    grid-area: auto;
-  }
-
-  .inpContainer > label {
-    background: linear-gradient(white, #F7F7F7);
-    position: absolute;
-    left: 14px;
-    top: -7.7px;
-    padding: 0 3px;
-  }
-
-  .registerContainer {
-    width: 96%;
+    grid-template-areas: 
+    'name'
+    'email'
+    'message'
+    'button';
   }
 
   .mapContainer > div {

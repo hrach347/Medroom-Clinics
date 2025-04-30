@@ -1,5 +1,5 @@
 .container{
-    padding-top: 20vh;
+    padding-top: 12vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@
 .container > ul {
     padding: 100px 150px;
     background: rgb(240, 240, 240);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: flex;
     box-shadow: inset 0px 0px 0px #00394d;
     border: solid 2px #00394d; 

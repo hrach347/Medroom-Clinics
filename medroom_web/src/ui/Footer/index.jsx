@@ -1,32 +1,30 @@
 import styles from "./style.module.css";
-import location from "../../Assets/icons/location.svg";
-import telephone from "../../Assets/icons/telephone.svg";
-import mail from "../../Assets/icons/mail.svg";
-import logo from "../../Assets/Images/logo.png";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+
+  const { t } = useTranslation('footer');
+
   const linkIcons = ["", "", "", ""]
 
+
   const clinicData = [
-    { icon: location, text: "11 Sayat-Nova Ave, Yerevan 0001", },
-    { icon: telephone, text: "telephone number", },
-    { icon: mail, text: "clinic mail", },
+    { icon: '/Assets/icons/location.svg', text: "11 Sayat-Nova Ave, Yerevan 0001", },
+    { icon: '/Assets/icons/telephone.svg', text: "telephone number", },
+    { icon: '/Assets/icons/mail.svg', text: "clinic mail", },
   ]
-  const pages = [
-    { name: "Գլխավոր", link: "/", },
-    { name: "Մեր Մասին", link: "/About", },
-    { name: "Կապ", link: "/Contact", },
-    { name: "Թիմ", link: "/Staff", },
-    { name: "Ծառայություններ", link: "/Services", },
-  ]
+
+  const pages = t('pages', {returnObjects: true});
+  const titles = t('titles', {returnObjects: true});
+
   return (
     <div className={styles.container}>
       <div className={styles.footerTopPartContainer}>
         <div className={styles.partContainer}>
-          <h3>OUR CONTACTS</h3>
+          <h3>{titles.contacts}</h3>
           <hr />
-          <img src={logo} alt="" width="120px" height="62px" className={styles.logo} />
+          <img src='/Assets/Images/logo.png' alt="" width="120px" height="62px" className={styles.logo} />
           {
             clinicData.map((element, index) => {
               return (
@@ -39,23 +37,21 @@ const Footer = () => {
           }
         </div>
         <div className={styles.partContainer}>
-          <h3 className={styles.footerPartOneTitle}>SITE MAP</h3>
+          <h3 className={styles.footerPartOneTitle}>{titles.map}</h3>
           <hr className={styles.line} />
           <ul className={styles.list}>
             {
               pages.map((element, index) => {
-                return <li className={styles.linkList}><Link to={element.link} key={index}>{element.name}</Link></li>
+                return <li className={styles.linkList} key={index}><Link to={element.link} key={index}>{element.name}</Link></li>
               })
             }
           </ul>
         </div>
         <div className={styles.partContainer}>
-          <h3>WE ARE SOCIAL NETWORKS</h3>
+          <h3>{titles.social}</h3>
           <hr />
           <div className={styles.iconsContainer}>
-            {
-              linkIcons.map((element, index) => <img src={element} width="24px" height="24px" key={index} />)
-            }
+           
           </div>
         </div>
       </div>

@@ -1,55 +1,42 @@
 import Title from "../../components/Title";
 import AboutPart from "../../ui/AboutPart";
 
-import font from "../../Assets/Images/backgroundPattern.png";
-import font2 from "../../Assets/Images/font2.png";
-import image from "../../Assets/Images/girlsImage.jpg";
 import styles from "./style.module.css";
+import { useTranslation } from "react-i18next";
+import WelcomeCard from "../../components/WelcomeCard";
 
-const data = {
-  title: "Մեր մասնագետները պատրաստ են ապահովել անվտանգ և որակյալ մազահեռացում։",
-  description: "Անվտանգ և պրոֆեսիոնալ մոտեցում",
-  subtitle:
-    "Հարթ մաշկ՝ առանց ցավի, գրգռման և անցանկալի մազերի։ Ալեքսանդրիտային լազերը արագ, անվտանգ և էֆեկտիվ լուծում է, որը հարմար է նույնիսկ ամենազգայուն մաշկի համար։",
-  image: image,
-  to: "/",
-};
-const data2 = {
-  title: "Մեր մասնագետները պատրաստ են ապահովել անվտանգ և որակյալ մազահեռացում։",
-  description: "Անվտանգ և պրոֆեսիոնալ մոտեցում",
-  subtitle:
-    "Հարթ մաշկ՝ առանց ցավի, գրգռման և անցանկալի մազերի։ Ալեքսանդրիտային լազերը արագ, անվտանգ և էֆեկտիվ լուծում է, որը հարմար է նույնիսկ ամենազգայուն մաշկի համար։",
-  image: image,
-  to: "/",
-};
+
 function About() {
+
+  const { t } = useTranslation('about');
+
+  const firstCardData = t('firstCardData', {returnObjects: true});
+  const secondCardData = t('secondCardData', {returnObjects: true});
+
+  const qualityBox = t('qualityBox', {returnObjects: true});
+
   return (
     <div className={styles.container}>
-      <Title>Մեր Մասին</Title>
-      <p>
-        Մազահեռացման արդյունավետությունը ոչ միայն սարքավորումից է կախված, այլև
-        մասնագետի հմտություններից։ Ճիշտ ընտրված պարամետրերը, մաշկի և մազի
-        առանձնահատկությունների ճշգրիտ գնահատումը և պրոֆեսիոնալ մոտեցումը
-        ապահովում են անվտանգ, անցավ և երկարատև արդյունք։
-      </p>
+      <WelcomeCard title={t('pageTitle')} title2='home / About' />
+      <p>{t('pageDescription')}</p>
      
-      <AboutPart data={data} image={font} />
-      <Title>Որակ</Title>
+      <AboutPart data={firstCardData} background={'/Assets/Images/backgroundPattern.png'} image={'/Assets/Images/girlsImage.jpg'}/>
+      <Title>{qualityBox.title}</Title>
       <ul>
-        <li> Մեր մասնագետները վերապատրաստված են միջազգային ստանդարտներին համապատասխան</li>
-        <li> Հատուկ անհատական մոտեցում յուրաքանչյուր հաճախորդին</li>
-        <li> Մեր մասնագետները վերապատրաստված են միջազգային ստանդարտներին համապատասխան</li>
-        <li> Արդյունք՝ առանց այրվածքների և անհարմարավետության</li>
-        <li> Մեր մասնագետները վերապատրաստված են միջազգային ստանդարտներին համապատասխան</li>
+        <li>{qualityBox.description1}</li>
+        <li>{qualityBox.description2}</li>  
+        <li>{qualityBox.description3}</li>
+        <li>{qualityBox.description4}</li>
+        <li>{qualityBox.description5}</li>
       </ul>
-      <AboutPart data={data2} image={font2} />
-      <Title>Որակ</Title>
+      <AboutPart data={secondCardData} image={'/Assets/Images/font2.png'} />
+      <Title>{qualityBox.title}</Title>
       <ul>
-        <li> Մեր մասնագետները վերապատրաստված են միջազգային ստանդարտներին համապատասխան</li>
-        <li> Հատուկ անհատական մոտեցում յուրաքանչյուր հաճախորդին</li>
-        <li> Մեր մասնագետները վերապատրաստված են միջազգային ստանդարտներին համապատասխան</li>
-        <li> Արդյունք՝ առանց այրվածքների և անհարմարավետության</li>
-        <li> Մեր մասնագետները վերապատրաստված են միջազգային ստանդարտներին համապատասխան</li>
+        <li>{qualityBox.description1}</li>
+        <li>{qualityBox.description2}</li>  
+        <li>{qualityBox.description3}</li>
+        <li>{qualityBox.description4}</li>
+        <li>{qualityBox.description5}</li>
       </ul>
     </div>
   );

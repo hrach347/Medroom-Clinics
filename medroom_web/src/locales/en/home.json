@@ -1,0 +1,146 @@
+{
+    "dataAlexandrit": {
+        "title": "Laser Hair Removal",
+        "description": "Safe and professional approach",
+        "subtitle":
+          "Alexandrite hair removal at our center is performed by specialists with medical education, ensuring safe, fast, and effective results.",
+        "image": "MerMasin.PNG",
+        "to": "/Services/alexandrit",
+        "buttonContent": "Learn more"
+    },
+    "dataPoxpatvastum": {
+        "title": "Hair Transplantation",
+        "description": "Thinning and falling hair are now a thing of the past.",
+        "subtitle":
+            "The transplanted hair will start growing from the 3rd month, and the final result will be visible after 1 year.",
+        "image": "doctor2.jpg",
+        "to": "/Services/transplant",
+        "buttonContent": "Learn more"
+    },
+    "decorationCard": {
+        "title": "Contact us",
+        "description": "We are confident that we can provide you with the best solution for your medical practice. Contact us to learn more about our services and how we can assist you.",
+        "buttonContent": "Contact"
+    },
+    "whyUs": {
+        "title": "Why Choose Us",
+        "cards": [
+            {
+                "image": "quality.svg",
+                "text": "High quality"
+            },
+            {
+                "image": "people.svg",
+                "text": "Professional team"
+            },
+            {
+                "image": "heart.svg",
+                "text": "Personalized approach"
+            },
+            {
+                "image": "sale.svg",
+                "text": "Affordable prices"
+            },
+            {
+                "image": "quality.svg",
+                "text": "Experienced specialists"
+            },
+            {
+                "image": "time.svg",
+                "text": "No waiting lines"
+            }
+        ]
+    },
+    "blogsData": {
+        "title": "Professional Perspectives",
+        "blogs": [
+            {
+                "url": "/Assets/Images/poxpatvastum.jpg",
+                "title": "We offer high-quality hair transplantation services to help you regain your confidence",
+                "description": "Hair Transplantation",
+                "id": 1,
+                "to": "/Services/transplant",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/alexsandrit.jpg",
+                "title": "Alexandrite laser hair removal at our center is performed by medically trained specialists",
+                "description": "Alexandrite Laser Hair Removal",
+                "id": 2,
+                "to": "/Services/alexandrit",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/kosmet.JPG",
+                "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "description": "Cosmetology",
+                "id": 3,
+                "to": "/Services/kosmetologia",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/mshX.JPG",
+                "title": "Professional skin care helps achieve the best results",
+                "description": "Skin Care",
+                "id": 4,
+                "to": "/Services/mashkXnamq",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/mashXord.JPG",
+                "title": "Professional skin care helps achieve the best results",
+                "description": "Dermatology Consultation",
+                "id": 5,
+                "to": "/Services/mashkXorhrdatvutyun",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/turboSalary.jpg",
+                "title": "A special water regime hydrates the skin, prevents dryness, and provides a feeling of freshness",
+                "description": "Turbo Solarium",
+                "id": 6,
+                "to": "/Services/turboSalary",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/Mersumimg.jpg",
+                "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
+                "description": "Massage",
+                "id": 7,
+                "to": "/Services/mersum",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/Mersumimg.jpg",
+                "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
+                "description": "Massage",
+                "id": 8,
+                "to": "/Services/hakapigment",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/asexain.jpg",
+                "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
+                "description": "Massage",
+                "id": 9,
+                "to": "/Services/asexain",
+                "buttonContent": "More"
+            },
+            {
+                "url": "/Assets/Images/Mersumimg.jpg",
+                "title": "Relieve pain, tension, and fatigue with professional therapeutic massage",
+                "description": "Massage",
+                "id": 10,
+                "to": "/Services/mazanot",
+                "buttonContent": "More"
+            }
+        ]
+    },
+    "clinicInformation":  [
+        { "account": 10, "text": "Partners" },
+        { "account": 10, "text": "Employee" },
+        { "account": 200, "text": "Clients" },
+        { "account": 500, "text": "Services" },
+        { "account": 7, "text": "Years of experience" }
+    ]
+}
