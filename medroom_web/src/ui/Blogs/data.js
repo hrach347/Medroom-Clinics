@@ -9,53 +9,6 @@
 
 
 const data = [
-    {
-      url: '/Assets/Images/poxpatvastum.webp',
-      title:
-        "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
-      description: "Մազերի փոխպատվաստում",
-      id: 1,
-      to: "/Services/transplant",
-    },
-    {
-      url: '/Assets/Images/alexsandrit.webp',
-      title:
-        "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
-      description: "Ալեքսանդրիտային մազահեռացում",
-      id: 2,
-      to: "/Services/alexandrit",
-    },
-    {
-      url: kosmetologia,
-      title:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      description: "Կոսմետոլոգիա",
-      id: 3,
-      to: "/Services/kosmetologia",
-    },
-    {
-      url: mashkXnamq,
-      title: "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
-      description: "մաշկի խնամք",
-      id: 4,
-      to: "/Services/mashkXnamq",
-    },
-    
-    {
-      url: mashkXord,
-      title: "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
-      description: "Մաշկաբանության խորհրդատվություն",
-      id: 5,
-      to: "/Services/mashkXorhrdatvutyun",
-    },
-    {
-      url: turboSalary,
-      title:
-        "Հատուկ ջրային ռեժիմը խոնավեցնում է մաշկը, կանխում չորացումը և տալիս թարմության զգացում",
-      description: "Տուրբո Սոլյարին ",
-      id: 6,
-      to: "/Services/turboSalary",
-    },
   
     {
       url: mersum,

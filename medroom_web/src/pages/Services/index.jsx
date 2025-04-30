@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 import ServiceCard from "../../components/ServiceCard";
 
 function Services() {
-
   const { t } = useTranslation('services');
   const pendingCardsData = t('cardsData', {returnObjects: true});
   const productionData = t('productionData', {returnObjects: true});
