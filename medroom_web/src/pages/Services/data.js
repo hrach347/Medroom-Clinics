@@ -1,6 +1,15 @@
 import ServiceCard from "../../components/ServiceCard"
-import alexandrit from '../../Assets/Images/kosmet.JPG'
+import alexandrit from '../../Assets/Images/alexsandrit.jpg'
 import video1 from '../../Assets/Videos/Procedure.mp4'
+import transplant from "../../Assets/Images/poxpatvastum.jpg";
+import kosmetologia from "../../Assets/Images/kosmetologia.JPG";
+import mashk from "../../Assets/Images/mashk3.JPG";
+import mashk2 from "../../Assets/Images/mshX.JPG";
+import mersum from "../../Assets/Images/Mersumimg.jpg";
+import turboSalary from "../../Assets/Images/turboSalary.jpg";
+import asexain from "../../Assets/Images/asexain.jpg";
+import permonent from "../../Assets/Images/permonent.jpg";
+
 
 const dataList = [
     {   
@@ -8,14 +17,14 @@ const dataList = [
         title : 'Մազերի փոխպատվաստում',
         description: 'lorem lorem lorem lorem lorem lorem lorem lorem lorem',
         to: 'transplant',
-        image: alexandrit,
+        image: transplant,
     },
     {   
         id: 2,
         title : 'Պերմանենտ',
         description: 'lorem lorem lorem lorem lorem lorem lorem ',
         to: 'permonent',
-        image: alexandrit,
+        image: permonent,
 
     },{   
         id: 3,
@@ -29,29 +38,28 @@ const dataList = [
         title : 'Ներարկումային կոսմետոլոգիա  ',
         description: 'lorem lorem lorem lorem lorem lorem lorem ',
         to: 'kosmetalogia',
-        image: alexandrit,
+        image: kosmetologia,
 
     },{   
         id: 5,
         title : 'Մաշկաբանության խորհրդատվություն',
         description: 'lorem lorem lorem lorem lorem lorem lorem ',
-        to: 'mashk',
-        image: alexandrit,
-
+        to: 'mashkXorhrdatvutyun',
+        image: mashk2,
     },{   
         id: 6,
         title : 'Մաշկի խնամք',
         description: 'lorem lorem lorem lorem lorem lorem lorem ',
         to: 'mashkXnamq',
-        image: alexandrit,
+        image: mashk,
 
         
     },{   
         id: 7,
         title : 'Տուրբո սոլյարի',
         description: 'lorem lorem lorem lorem lorem lorem lorem',
-        to : 'solary',
-        image: alexandrit,
+        to : 'turboSalary',
+        image: turboSalary,
 
     },{   
         id: 8,
@@ -73,14 +81,14 @@ const dataList = [
         title : 'Ասեղային մազահեռացում ',
         description: 'lorem lorem lorem lorem lorem lorem lorem ',
         to: 'asexain',
-        image: alexandrit,
+        image: asexain,
 
     },{   
         id: 11,
         title : 'մերսում',
         description: 'lorem lorem lorem lorem lorem lorem lorem ',
         to: 'mersum',
-        image: alexandrit,
+        image: mersum,
 
     },
 ]
@@ -92,6 +100,7 @@ export const productionData = {
         {description: ' range of services is designed to support your health at every stage.'},
         {description : " range of services is designed to support your health at every stage."},
         {description: 'range of services is designed to support your health at every stage.'},
+
     ],
     lists: [
         {

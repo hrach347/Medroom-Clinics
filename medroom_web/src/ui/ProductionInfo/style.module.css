@@ -6,13 +6,14 @@
 }
 
 
- .rightSide {
-     width: 45%;
+.rightSide {
+     width: 50%;
 }
 
 .leftSide {
-      width: 50%;
-      height: 70vh;
+      width: 45%;
+      height: 80vh;
+      object-fit: cover; 
 }
 .leftSide {
     background-repeat: no-repeat;
@@ -102,19 +103,11 @@
      height: 40%;
 }
 
-@media screen and (max-width: 1920px) {
-     .leftSide {
-          height: 70vh;
-     }
-     
- }
+
 
  @media screen and (max-width: 1500px) {
-    .leftSide {
-      height: 80vh;
-    }
      .rightSide {
-          padding: 50px 0px 10px 0px;
+          padding: 50px 0px 50px 0px;
      }
            
      .title {
@@ -123,9 +116,10 @@
      .lists p {
          font-size: 14px;
      }
+     
      .rightChild {
-           gap: 15px;
-     }
+          gap: 15px;
+    }
      .descriptions {
            margin-top: 2%;
      }
@@ -137,9 +131,22 @@
 
 
 @media screen and (max-width: 1024px) {
+     .container {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+     }
+     .leftSide {
+           width: 90%;
+           height: 80vh;
+     }
+     .rightChild {
+          gap: 30px;
+    }
      .rightSide {
-          border: solid;
+          width: 90%;
           padding: 50px 0px 50px 0px;
+          border: solid;
      } 
      .descriptions {
            margin-top: 0;
@@ -159,41 +166,38 @@
          font-size: 18px;
     }
     
-    .rightChild {
-         gap: 30px;
-    }
-    .container {
-     flex-direction: column;
-     align-items: center;
-     gap: 20px;
-     }
-    .leftSide ,.rightSide {
-     width: 90%;
-    }
-    .leftSide {
-      height: 45vh;
-    }
-
+   
+   
+  
 }
 
 
 
 @media screen and (max-width: 480px) {
+     .rightChild {
+          width: 85%;
+           gap: 30px;
+      }
      
-    .leftSide ,.rightSide {
-         width: 100%;
+    .rightSide {
+       width: 100%;
+    }
+
+    .leftSide {
+      width: 90%;
+      height: 60vh;
     }
     .title {
         font-size: 23px;
    }
+ 
    .description {
-    font-size: 15px;
+    font-size: 14px;
         line-height: 1.4;
    }
    .lists {
        margin-top: 0;
    }
-  
    .lists p {
         font-size: 14px;
    }

@@ -5,10 +5,11 @@
   justify-content: center;
   align-items: center;
   padding: 10% 0 10% 0;
-  background-position: end;
+  background-position: top start;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 60% 200%;
   background-color: rgb(248, 246, 246);
+  
 }
 
 @media screen and (max-width: 768px) {

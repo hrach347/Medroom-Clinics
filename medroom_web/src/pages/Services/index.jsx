@@ -1,7 +1,6 @@
 import { pendingCards, productionData } from "./data";
 import styles from "./style.module.css";
 import WelcomeCard from "../../components/WelcomeCard";
-import { useParams } from "react-router";
 import ProductionInfo from "../../ui/ProductionInfo";
 import WhyChooseUs from "../../components/WhyUsCard";
 
