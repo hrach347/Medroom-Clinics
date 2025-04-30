@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 10px 0px 10px 0px;
-    gap: 20px;
+    gap: 30px;
 }
 
 @media screen and (max-width: 7000px) {
@@ -32,6 +32,13 @@
 @media screen and (max-width: 1024px) {
     .serviceCards {
          width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .serviceCards {
+         width: 100%;
+         gap: 40px;
     }
 }
 

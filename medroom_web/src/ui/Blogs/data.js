@@ -10,7 +10,7 @@
 
 const data = [
   {
-    url: transplant,
+    url: '/Assets/Images/poxpatvastum.webp',
     title:
       "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
     description: "Մազերի փոխպատվաստում",
@@ -18,7 +18,7 @@ const data = [
     to: "/Services/transplant",
   },
   {
-    url: alexandrit,
+    url: '/Assets/Images/alexsandrit.webp',
     title:
       "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
     description: "Ալեքսանդրիտային մազահեռացում",

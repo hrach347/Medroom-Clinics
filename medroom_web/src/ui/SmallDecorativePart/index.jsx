@@ -7,7 +7,7 @@ function SmallDecorativePart({ data }) {
             <div className={styles.smallContainer}>
                 <div className={styles.decorativeBlockOne}></div>
                 <div className={styles.decorativeBlockTwo}></div>
-                <div style={{backgroundImage: `url(/Assets/Images/kosmet.JPG)`}} className={styles.picture}/>
+                <div style={{backgroundImage: `url(/Assets/Images/kosmet.webp)`}} className={styles.picture}/>
                 <div className={styles.informationContainer}>
                     <h3>{data.title}</h3>
                     <p>{data.description}</p>

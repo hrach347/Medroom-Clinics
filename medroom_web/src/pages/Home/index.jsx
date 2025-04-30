@@ -24,10 +24,10 @@ function Home() {
   return (
     <div className={styles.container}>
       <LandingBackground />
-      <AboutPart data={dataAlexandrit} image={'/Assets/Images/font2.png'} />
+      <AboutPart data={dataAlexandrit} image={'/Assets/Images/MerMasin.PNG'} />
       <SmallDecorativePart data={decorationCardData} />
       <CardsContainer data={whyUsData} />
-      <AboutPart data={dataPoxpatvastum} image={'/Assets/Images/font2.png'} />
+      <AboutPart data={dataPoxpatvastum} image={'/Assets/Images/doctor2.jpg'} />
       <Blogs data={blogsData} />
       <InformationAboutClinic data={clinikInformation} />
     </div>

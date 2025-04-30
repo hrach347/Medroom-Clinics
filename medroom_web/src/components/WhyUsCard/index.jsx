@@ -31,7 +31,7 @@ const WhyChooseUs = ({ data }) => {
 
             <div className={styles.middle} >
                 <motion.img 
-                    src='/Assets/Images/smileDoc.png'
+                    src='/Assets/Images/doctors.JPG'
                     alt='' 
                     initial='hidden'
                     animate={inView ? 'visible' : 'hidden'}
