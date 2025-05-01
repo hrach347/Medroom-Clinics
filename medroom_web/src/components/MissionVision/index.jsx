@@ -1,20 +1,29 @@
+import { useRef, useState } from 'react';
+import OurMissionCard from '../OurMissionCard';
 import styles from './style.module.css';
+
 
 const MissionVision = ({ data }) => {
 
-    console.log(data)
+    const [activeCard, setActiveCard] = useState(2)
 
     return (
         <div className={styles.container}>
+            <h2 className={styles.title}>{data.title}</h2>
+            <h3 className={styles.subtitle}>{data.subtitle}</h3>
+            <h4 className={styles.description}>{data.description}</h4>
+            <div className={styles.cards}>
             {
                 data.cards.map((card, index) => 
-                    <div key={index}>
-                        <h2>{card.title}</h2>
-                        <img src={card.icon} alt='' />
-                        <p>{card.description}</p>
-                    </div>
+                    <OurMissionCard 
+                        key={index} 
+                        data={card} 
+                        activeCard={activeCard}
+                        setActiveCard={setActiveCard}
+                    />
                 )
             }
+            </div>
         </div>
     );
 };
