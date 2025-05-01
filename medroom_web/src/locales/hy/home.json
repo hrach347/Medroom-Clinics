@@ -51,101 +51,101 @@
               }
         ]
     },
-    "blogsData": {
-        "title": "Մասնագիտական անկյուններ",
-        "blogs": [
-            {
-                "url": "/Assets/Images/poxpatvastum.webp",
-                "title":
-                  "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
-                "description": "Մազերի փոխպատվաստում",
-                "id": 1,
-                "to": "/Services/transplant",
-                "buttonContent": "Ավելին"
-            },
-            {
-                "url": "/Assets/Images/alexsandrit.webp",
-                "title":
-                  "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
-                "description": "Ալեքսանդրիտային մազահեռացում",
-                "id": 2,
-                "to": "/Services/alexandrit",
-                "buttonContent": "Ավելին"
-            },  
-            {   
-                "url": "/Assets/Images/kosmet.webp",
-                "title":
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                "description": "Կոսմետոլոգիա",
-                "id": 3,
-                "to": "/Services/kosmetologia",
-                "buttonContent": "Ավելին"
-            },  
-            {   
-                "url": "/Assets/Images/mshX.webp",
-                "title": "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
-                "description": "մաշկի խնամք",
-                "id": 4,
-                "to": "/Services/mashkXnamq",
-                "buttonContent": "Ավելին"
-            },  
+      "blogsData": {
+          "title": "Մասնագիտական անկյուններ",
+          "blogs": [
+              {
+                  "url": "/Assets/Images/poxpatvastum.webp",
+                  "title":
+                    "Մենք առաջարկում ենք մազերի փոխպատվաստման որակյալ ծառայություն, որը կօգնի ձեզ վերագտնել ձեր ինքնավստահությունը",
+                  "description": "Մազերի փոխպատվաստում",
+                  "id": 1,
+                  "to": "/Services/transplant",
+                  "buttonContent": "Ավելին"
+              },
+              {
+                  "url": "/Assets/Images/alexsandrit.webp",
+                  "title":
+                    "Ալեքսանդրիտային մազահեռացումը մեր կենտրոնում կատարում են բժշկական կրթություն ունեցող մասնագետները",
+                  "description": "Ալեքսանդրիտային մազահեռացում",
+                  "id": 2,
+                  "to": "/Services/alexandrit",
+                  "buttonContent": "Ավելին"
+              },  
+              {   
+                  "url": "/Assets/Images/kosmet.webp",
+                  "title":
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                  "description": "Կոսմետոլոգիա",
+                  "id": 3,
+                  "to": "/Services/kosmetologia",
+                  "buttonContent": "Ավելին"
+              },  
+              {   
+                  "url": "/Assets/Images/mshX.webp",
+                  "title": "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
+                  "description": "մաշկի խնամք",
+                  "id": 4,
+                  "to": "/Services/mashkXnamq",
+                  "buttonContent": "Ավելին"
+              },  
 
-            {   
-                "url": "/Assets/Images/mashXord.webp",
-                "title": "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
-                "description": "Մաշկաբանության խորհրդատվություն",
-                "id": 5,
-                "to": "/Services/mashkXorhrdatvutyun",
-                "buttonContent": "Ավելին"
-            },  
-            {   
-                "url": "/Assets/Images/turboSalary.webp",
-                "title":
-                  "Հատուկ ջրային ռեժիմը խոնավեցնում է մաշկը, կանխում չորացումը և տալիս թարմության զգացում",
-                "description": "Տուրբո Սոլյարին ",
-                "id": 6,
-                "to": "/Services/turboSalary",
-                "buttonContent": "Ավելին"
-            },  
-            
-            {   
-                "url": "/Assets/Images/Mersumimg.webp",
-                "title":
-                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
-                "description": "Մերսում",
-                "id": 7,
-                "to": "/Services/mersum",
-                "buttonContent": "Ավելին"
-            },  
-            {   
-                "url": "/Assets/Images/Mersumimg.webp",
-                "title":
-                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
-                "description": "Մերսում",
-                "id": 8,
-                "to": "/Services/hakapigment",
-                "buttonContent": "Ավելին"
-            },  
-            {   
-                "url": "/Assets/Images/asexain.webp",
-                "title":
-                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
-                "description": "Մերսում",
-                "id": 9,
-                "to": "/Services/asexain",
-                "buttonContent": "Ավելին"
-            },  
-            {   
-                "url": "/Assets/Images/Mersumimg.webp",
-                "title":
-                  "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
-                "description": "Մերսում",
-                "id": 10,
-                "to": "/Services/mazanot",
-                "buttonContent": "Ավելին"
-            }   
-        ]
-    },
+              {   
+                  "url": "/Assets/Images/mashXord.webp",
+                  "title": "Պրոֆեսիոնալ մաշկի խնամքը օգնում է հասնել լավագույն արդյունքներին",
+                  "description": "Մաշկաբանության խորհրդատվություն",
+                  "id": 5,
+                  "to": "/Services/mashkXorhrdatvutyun",
+                  "buttonContent": "Ավելին"
+              },  
+              {   
+                  "url": "/Assets/Images/turboSalary.webp",
+                  "title":
+                    "Հատուկ ջրային ռեժիմը խոնավեցնում է մաշկը, կանխում չորացումը և տալիս թարմության զգացում",
+                  "description": "Տուրբո Սոլյարին ",
+                  "id": 6,
+                  "to": "/Services/turboSalary",
+                  "buttonContent": "Ավելին"
+              },  
+              
+              {   
+                  "url": "/Assets/Images/Mersumimg.webp",
+                  "title":
+                    "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                  "description": "Մերսում",
+                  "id": 7,
+                  "to": "/Services/mersum",
+                  "buttonContent": "Ավելին"
+              },  
+              {   
+                  "url": "/Assets/Images/Mersumimg.webp",
+                  "title":
+                    "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                  "description": "Մերսում",
+                  "id": 8,
+                  "to": "/Services/hakapigment",
+                  "buttonContent": "Ավելին"
+              },  
+              {   
+                  "url": "/Assets/Images/asexain.webp",
+                  "title":
+                    "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                  "description": "Մերսում",
+                  "id": 9,
+                  "to": "/Services/asexain",
+                  "buttonContent": "Ավելին"
+              },  
+              {   
+                  "url": "/Assets/Images/Mersumimg.webp",
+                  "title":
+                    "Ազատվեք ցավից, լարվածությունից և հոգնածությունից մասնագիտական բուժական մերսման միջոցով",
+                  "description": "Մերսում",
+                  "id": 10,
+                  "to": "/Services/mazanot",
+                  "buttonContent": "Ավելին"
+              }   
+          ]
+      },
     "clinicInformation":  [
         { "account": 10, "text": "Գործընկերներ" },
         { "account": 10, "text": "Աշխատակազմ" },

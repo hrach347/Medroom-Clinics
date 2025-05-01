@@ -1,10 +1,10 @@
 import Title from "../../components/Title";
 import AboutPart from "../../ui/AboutPart";
-
 import styles from "./style.module.css";
 import { useTranslation } from "react-i18next";
 import WelcomeCard from "../../components/WelcomeCard";
 import MissionVision from "../../components/MissionVision";
+import Blogs from "../../ui/Blogs";
 
 
 function About() {
@@ -15,6 +15,8 @@ function About() {
   const secondCardData = t('secondCardData', {returnObjects: true});
   const qualityBox = t('qualityBox', {returnObjects: true});
   const missionCard = t('missionCard', {returnObjects: true});
+  const blogsData = t('blogsData',{returnObjects:true})
+  
 
   return (
     <div className={styles.container}>
@@ -41,6 +43,7 @@ function About() {
       </ul>
 
       <MissionVision data={missionCard} />
+      <Blogs data={blogsData}/>
     </div>
   );
 }

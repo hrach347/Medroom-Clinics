@@ -20,7 +20,6 @@ function Home() {
   const blogsData = t('blogsData', {returnObjects: true});
   const clinikInformation = t('clinicInformation', {returnObjects: true});
 
- 
   return (
     <div className={styles.container}>
       <LandingBackground />
