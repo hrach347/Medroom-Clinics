@@ -30,7 +30,7 @@ function About() {
         <li>{qualityBox.description4}</li>
         <li>{qualityBox.description5}</li>
       </ul>
-      <AboutPart data={secondCardData} image={'/Assets/Images/font2.png'} />
+      <AboutPart data={secondCardData} background={'/Assets/Images/fonts5.jpg'} image={'/Assets/Images/kosmet4.JPG'} />
       <Title>{qualityBox.title}</Title>
       <ul>
         <li>{qualityBox.description1}</li>
