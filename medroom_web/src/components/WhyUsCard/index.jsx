@@ -2,7 +2,7 @@ import styles from './style.module.css';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { containerVariant, textVariant, ImageVariant } from './animate';
-import WhyBoxes from '../WhyBoxes';
+import WhyBoxes from '../InfoBoxes';
 
 const WhyChooseUs = ({ data }) => {
 

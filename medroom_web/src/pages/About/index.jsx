@@ -5,6 +5,7 @@ import styles from "./style.module.css";
 import { useTranslation } from "react-i18next";
 import WelcomeCard from "../../components/WelcomeCard";
 import MissionVision from "../../components/MissionVision";
+import OurBenefits from "../../components/OurBenefits";
 
 
 function About() {
@@ -15,6 +16,7 @@ function About() {
   const secondCardData = t('secondCardData', {returnObjects: true});
   const qualityBox = t('qualityBox', {returnObjects: true});
   const missionCard = t('missionCard', {returnObjects: true});
+  const benefitsCard = t('benefitsCard', {returnObjects: true});
 
   return (
     <div className={styles.container}>
@@ -41,6 +43,8 @@ function About() {
       </ul>
 
       <MissionVision data={missionCard} />
+
+      <OurBenefits data={benefitsCard} />
     </div>
   );
 }

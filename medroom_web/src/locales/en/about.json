@@ -49,5 +49,23 @@
               "description": "Simplicity, high quality, innovation, honesty, sincere care, and dedication."
           } 
         ]
+    },
+    "benefitsCard": {
+        "title": "◉ Our Benefits",
+        "description": "A transformation you feel, not just see.",
+        "background": "/Assets/Images/mashk3.webp",
+        "buttonContent": "Contact Us",
+        "boxes": [
+            {
+                "name": "Certified Equipment",
+                "description": "We use only certified and modern equipment that meets international standards.",
+                "icon": "/Assets/icons/cpu.svg"
+            },  
+            {   
+                "name": "Real Results",
+                "description": "We strive for lasting results — something you feel beyond the mirror.",
+                "icon": "/Assets/icons/shield-check.svg"
+            }
+        ]
     }
 }
