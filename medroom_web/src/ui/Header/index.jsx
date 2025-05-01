@@ -57,6 +57,11 @@ function Header() {
         <NavLink to="/Staff"  className={({isActive}) => (isActive ? styles.active : '')}>{t('team')}</NavLink>
         <NavLink to="/Contact"  className={({isActive}) => (isActive ? styles.active : '')}>{t('contact')}</NavLink>
       </div>
+      <select className={styles.select} onChange={handleChangeLanguage} defaultValue={i18n.language}>
+          <option value="hy">🇦🇲 Հայերեն</option>
+          <option value="en">🇺🇸 English</option>
+          <option value="ru">🇷🇺 Русский</option>
+        </select>
       <div
         className={`${styles.menuIcon} ${isOpened ? styles.openedIcon : ""}`}
         onClick={toggleMenu}
@@ -65,6 +70,7 @@ function Header() {
         <div></div>
         <div></div>
       </div>
+      
       <div
         className={`${styles.mobileMenu} ${
           isOpened ? styles.openedMobileMenu : ""
@@ -76,11 +82,6 @@ function Header() {
         <Link to="/Staff">{t('team')}</Link>
         <Link to="/Contact">{t('contact')}</Link>
       </div>
-      <select className={styles.select} onChange={handleChangeLanguage} defaultValue={i18n.language}>
-          <option value="hy">Հայերեն</option>
-          <option value="en">English</option>
-          <option value="ru">Русский</option>
-        </select>
     </div>
   );
 }
