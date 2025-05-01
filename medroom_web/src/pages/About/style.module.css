@@ -12,19 +12,21 @@
     width: 75%;
 }
 .container > ul {
+    max-width: 80%;
     padding: 100px 150px;
-    background: rgb(240, 240, 240);
-    /* border-radius: 10px; */
+
+    background-color: #65c8d0;
     display: flex;
     box-shadow: inset 0px 0px 0px #00394d;
     border: solid 2px #00394d; 
     flex-direction: column;
     gap: 30px;
-    transition: 1s;
+    transition: all 1s ease;
+    border-radius: 20px;
 }
 .container >ul:hover{
     box-shadow: inset 0px 1000px 30px #00394d;
-    border-radius: 0;
+    border-radius: 20;
 }
 .container>ul:hover>li{
     color: white;
@@ -33,3 +35,25 @@
     color: #00394d;
     font-size: 24px;
 }
+
+@media screen and (max-width: 1020px) {
+    .container > ul {
+         padding: 50px 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+   .container li {font-size: 20px}
+   .container > ul {
+      padding: 50px 70px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+    .container > ul {
+        max-width: 90%;
+    }
+    .container li {font-size: 15px}
+    .container > ul {
+       padding: 50px 50px;
+    }
+ }
