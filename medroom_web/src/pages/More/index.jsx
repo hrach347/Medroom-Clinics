@@ -9,6 +9,7 @@ const More = () => {
     const { t } = useTranslation('more');
     const MoreList = t('data', {returnObjects: true});
     const MoreData = MoreList[slug]
+    console.log(MoreData)
 
     return (
         <div className={styles.container}>

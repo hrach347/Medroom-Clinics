@@ -14,16 +14,18 @@
         "description": "Safe and expert care for your needs",
         "subtitle":
           "Flawlessly smooth skin, no pain, no irritation, no unwanted hair. Alexandrite laser offers a quick, safe, and highly effective treatment, gentle enough for even the most sensitive skin.",
-        "to": "/",
+        "to": "/Contact",
         "buttonContent": "Learn more"
     },
     "qualityBox": {
         "title": "Quality",
-        "description1": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure.",
-        "description2": "A personalized approach tailored to each client.",
-        "description3": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure.",
-        "description4": "Flawless results — no burns, no discomfort.",
-        "description5":  "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure."
+        "descriptions": [
+            {"description": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure."},
+            {"description": "A personalized approach tailored to each client."},
+            {"description": "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure."},
+            {"description": "Flawless results — no burns, no discomfort."},
+            {"description":  "Our specialists are trained in accordance with international standards, ensuring the highest level of safety, precision, and effectiveness in every procedure."}
+        ]
     },
     "missionCard": {
         "title": "◉ Our Mission / Vission",

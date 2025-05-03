@@ -5,6 +5,8 @@ import HelperCard from "../../components/HelperCard";
 import { useTranslation } from "react-i18next";
 import Button from "../../components/Button/button";
 import WelcomeCard from "../../components/WelcomeCard";
+import emailjs from '@emailjs/browser';
+import { useRef, useState } from 'react';
 
 function Contact() {
 
@@ -12,8 +14,33 @@ function Contact() {
 
   const labels = t('labels', {returnObjects: true});
   const placeholders = t('placeholders', {returnObjects: true});
-
   const helperCard = t('helperCard', {returnObjects: true});
+
+  const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_9r10tj9",   
+        "template_4frsc9e",    
+        form.current,
+        "lQu28uPOZGiQBHlYt"     
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setMessageSent(true);
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Սխալ տեղի ունեցավ։");
+        }
+      );
+  };
 
   return (
     <div className={styles.container}>
@@ -26,6 +53,8 @@ function Contact() {
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
+            ref={form}
+            onSubmit={sendEmail}
           >
 
             <div className={styles.forName}>
@@ -40,11 +69,11 @@ function Contact() {
 
             <div className={styles.forMessage}>
               <label htmlFor="message">{labels.message}</label>
-              <textarea id="message" placeholder={placeholders.message} required/>
+              <textarea id="message" name="message" placeholder={placeholders.message} required/>
             </div>
 
             <div className={styles.forBtn}>
-              <Button content={labels.send} />
+              <Button content={labels.send} type='submit' />
             </div>
 
           </motion.form>

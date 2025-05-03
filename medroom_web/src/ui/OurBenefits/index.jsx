@@ -1,4 +1,4 @@
-import WhyBoxes from '../InfoBoxes';
+import InfoBoxes from '../../components/InfoBoxes';
 import styles from './style.module.css';
 import { motion } from 'framer-motion';
 import Button from '../../components/Button/button';
@@ -33,7 +33,7 @@ const OurBenefits = ({ data }) => {
                 <motion.h3 className={styles.description} variants={textVariant}>{data.description}</motion.h3>
                 {
                     data.boxes.map((box, index) => 
-                        <WhyBoxes 
+                        <InfoBoxes 
                             key={index} 
                             data={box} 
                             mode='forAbout'
