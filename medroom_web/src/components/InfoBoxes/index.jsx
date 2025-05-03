@@ -2,7 +2,7 @@ import styles from './style.module.css';
 import { motion } from 'framer-motion';
 
 
-const WhyBoxes = ({data, animVariant, mode}) => {
+const InfoBoxes = ({data, animVariant, mode}) => {
 
     return (
         <motion.div 
@@ -35,4 +35,4 @@ const WhyBoxes = ({data, animVariant, mode}) => {
     );
 };
 
-export default WhyBoxes;
+export default InfoBoxes;

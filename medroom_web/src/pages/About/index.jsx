@@ -5,7 +5,9 @@ import styles from "./style.module.css";
 import { useTranslation } from "react-i18next";
 import WelcomeCard from "../../components/WelcomeCard";
 import MissionVision from "../../components/MissionVision";
-import OurBenefits from "../../components/OurBenefits";
+import OurBenefits from "../../ui/OurBenefits";
+import Blogs from "../../ui/Blogs";
+import ListComponent from "../../components/ListComponent";
 
 
 function About() {
@@ -17,6 +19,7 @@ function About() {
   const qualityBox = t('qualityBox', {returnObjects: true});
   const missionCard = t('missionCard', {returnObjects: true});
   const benefitsCard = t('benefitsCard', {returnObjects: true});
+  const blogsData = t('blogsData',{returnObjects:true});
 
   return (
     <div className={styles.container}>
@@ -25,26 +28,16 @@ function About() {
      
       <AboutPart data={firstCardData} background={'/Assets/Images/backgroundPattern.png'} image={'/Assets/Images/girlsImage.jpg'}/>
       <Title>{qualityBox.title}</Title>
-      <ul>
-        <li>{qualityBox.description1}</li>
-        <li>{qualityBox.description2}</li>  
-        <li>{qualityBox.description3}</li>
-        <li>{qualityBox.description4}</li>
-        <li>{qualityBox.description5}</li>
-      </ul>
-      <AboutPart data={secondCardData} image={'/Assets/Images/font2.png'} />
+      <ListComponent data={qualityBox.descriptions} />
+      <OurBenefits data={benefitsCard} />
+
+      <AboutPart data={secondCardData} image={'/Assets/Images/fonts3.jpg'} />
       <Title>{qualityBox.title}</Title>
-      <ul>
-        <li>{qualityBox.description1}</li>
-        <li>{qualityBox.description2}</li>  
-        <li>{qualityBox.description3}</li>
-        <li>{qualityBox.description4}</li>
-        <li>{qualityBox.description5}</li>
-      </ul>
+      <ListComponent data={qualityBox.descriptions} />
 
       <MissionVision data={missionCard} />
+      <Blogs data={blogsData} />
 
-      <OurBenefits data={benefitsCard} />
     </div>
   );
 }

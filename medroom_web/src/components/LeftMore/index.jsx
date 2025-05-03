@@ -11,7 +11,6 @@ const LeftMore = ({ data }) => {
         threshold: 0.5
     });
 
-
     const pendingData = data.lists.map((list, index) => (
         <motion.li
             key={index}

@@ -2,7 +2,7 @@ import styles from './style.module.css';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { containerVariant, textVariant, ImageVariant } from './animate';
-import WhyBoxes from '../InfoBoxes';
+import InfoBoxes from '../../components/InfoBoxes';
 
 const WhyChooseUs = ({ data }) => {
 
@@ -47,7 +47,7 @@ const WhyChooseUs = ({ data }) => {
             >
                 {
                     data.boxes.map((box, index) => {
-                        return <WhyBoxes key={index} data={box} animVariant={textVariant} />
+                        return <InfoBoxes key={index} data={box} animVariant={textVariant} />
                     })
                 }
             </motion.div>

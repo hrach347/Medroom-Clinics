@@ -1,7 +1,7 @@
 import styles from "./style.module.css";
 import WelcomeCard from "../../components/WelcomeCard";
 import ProductionInfo from "../../ui/ProductionInfo";
-import WhyChooseUs from "../../components/WhyUsCard";
+import WhyChooseUs from "../../ui/WhyUsCard";
 import { useTranslation } from "react-i18next";
 import ServiceCard from "../../components/ServiceCard";
 
