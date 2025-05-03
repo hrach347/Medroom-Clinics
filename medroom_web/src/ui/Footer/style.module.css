@@ -26,6 +26,15 @@
     gap: 15px;
 }
 
+.logo {
+    width: 120px;
+    height: 62px;
+}
+.logo2 {
+    width: 24px;
+    height: 24px;
+}
+
 .partContainer>h3 {
     font-size: 19px;
     font-weight: 100;
