@@ -32,6 +32,8 @@ function About() {
       <OurBenefits data={benefitsCard} />
 
       <AboutPart data={secondCardData} image={'/Assets/Images/fonts3.jpg'} />
+
+      <AboutPart data={secondCardData} background={'/Assets/Images/fonts5.jpg'} image={'/Assets/Images/kosmet4.JPG'} />
       <Title>{qualityBox.title}</Title>
       <ListComponent data={qualityBox.descriptions} />
 
